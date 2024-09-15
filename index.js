@@ -14,6 +14,10 @@ app.get('/twitter', (rep, res) => {
 app.get('/youtube', (req, res) => {
     res.send('<h1>Coming Soon.....!!!</h1>')
 })
+
+app.get('/contact', (req, res) => {
+  res.send('<h2>Contact No. 022-8273-91832</h2>')
+})
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
