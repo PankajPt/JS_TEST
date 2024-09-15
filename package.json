@@ -4,11 +4,14 @@
   "description": "Javascript all testing files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
-    "test"
+    "node"
   ],
   "author": "Pankaj Patil",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
