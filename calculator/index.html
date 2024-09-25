@@ -13,7 +13,7 @@
         <br>
         <button id="ac" onclick="clearDisplay()">AC</button>
         <button id="percent" onclick="getOperator('%')">%</button>
-        <button id="backspace">←</button>
+        <button id="backspace" onclick="backSpace()">←</button>
         <button id="division" onclick="getOperator('/')">/</button>
         <br>
         <button id="seven" onclick="getNumber('7')">7</button>
@@ -34,7 +34,7 @@
         <button id="dZero" onclick="getNumber('00')">00</button>
         <button id="zero" onclick="getNumber('0')">0</button>
         <button id="dot" onclick="getNumber('.')">.</button>
-        <button id="equalto">=</button>
+        <button id="equalto" onclick="getResult()">=</button>
     </div>
     <script src="main.js"></script>
 </body>
