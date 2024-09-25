@@ -11,31 +11,31 @@
         <input type="text" id="display" disabled>
         <br>
         <br>
-        <button id="ac">AC</button>
-        <button id="percent">%</button>
+        <button id="ac" onclick="clearDisplay()">AC</button>
+        <button id="percent" onclick="getOperator('%')">%</button>
         <button id="backspace">←</button>
-        <button id="division">/</button>
+        <button id="division" onclick="getOperator('/')">/</button>
         <br>
-        <button id="seven">7</button>
-        <button id="eight">8</button>
-        <button id="nine">9</button>
-        <button id="star">*</button>
+        <button id="seven" onclick="getNumber('7')">7</button>
+        <button id="eight" onclick="getNumber('8')">8</button>
+        <button id="nine" onclick="getNumber('9')">9</button>
+        <button id="star" onclick="getOperator('*')">*</button>
         <br>
-        <button id="four">4</button>
-        <button id="five">5</button>
-        <button id="six">6</button>
-        <button id="minus">-</button>
+        <button id="four" onclick="getNumber('4')">4</button>
+        <button id="five" onclick="getNumber('5')">5</button>
+        <button id="six" onclick="getNumber('6')">6</button>
+        <button id="minus" onclick="getOperator('-')">-</button>
         <br>
-        <button id="one">1</button>
-        <button id="two">2</button>
-        <button id="three">3</button>
-        <button id="plus">+</button>
+        <button id="one" onclick="getNumber('1')">1</button>
+        <button id="two" onclick="getNumber('2')">2</button>
+        <button id="three" onclick="getNumber('3')">3</button>
+        <button id="plus" onclick="getOperator('+')">+</button>
         <br>
-        <button id="dZero">00</button>
-        <button id="zero">0</button>
-        <button id="dot">.</button>
+        <button id="dZero" onclick="getNumber('00')">00</button>
+        <button id="zero" onclick="getNumber('0')">0</button>
+        <button id="dot" onclick="getNumber('.')">.</button>
         <button id="equalto">=</button>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
