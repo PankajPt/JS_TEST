@@ -1,12 +1,19 @@
-function clearDisplay(){
-    return document.getElementById('display').value = "";
+let isResultCalculated = false;
+
+function clearDisplay(clearCmd){
+    if (isResultCalculated || clearCmd === 'AC'){
+        isResultCalculated = false;
+        return document.getElementById('display').value = "";
+    }
 }
 
 function getNumber(number){
+    clearDisplay();
     return document.getElementById('display').value += number;
 }
 
 function getOperator(operator){
+    isResultCalculated = false;
     return document.getElementById('display').value += operator;
 }
 
@@ -18,5 +25,11 @@ function backSpace(){
 }
 
 function getResult(){
-    return document.getElementById('display').value = "Function cominng sooooon!!!"
+    try{
+        let dispValue = document.getElementById('display').value;
+        document.getElementById('display').value = eval(dispValue);
+        isResultCalculated = true;
+    }catch (err) {
+        document.getElementById('error-block').innerHTML = err.message;
+    }
 }

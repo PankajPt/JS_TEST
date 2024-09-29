@@ -1,7 +1,14 @@
-.calculator{
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.calculator {
     width: 300px;
-    height: 300px;
-    margin: 250px auto;
+    margin: 20px;
     padding: 20px;
     text-align: center;
     border: 2px solid #000;
@@ -26,34 +33,21 @@ button {
     background-color: white;
 }
 
-#ac {
+#ac, #percent, #backspace, #division, #star, #minus, #plus {
     background-color: rgb(207, 207, 207);
 }
 
-#percent {
-    background-color: rgb(207, 207, 207);
-}
-
-#backspace {
-    background-color: rgb(207, 207, 207);
-}
-
-#division {
-    background-color: rgb(207, 207, 207);
-}
-
-#star {
-    background-color: rgb(207, 207, 207);
-}
-
-#minus{
-    background-color: rgb(207, 207, 207);
-}
-
-#plus{
-    background-color: rgb(207, 207, 207);
-}
-
-#equalto{
+#equalto {
     background-color: rgb(255, 160, 35);
+}
+
+#error-block {
+    background-color: #f8d7da;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    margin: 80px;
+    padding: 20px;
+    text-align: center;
 }
