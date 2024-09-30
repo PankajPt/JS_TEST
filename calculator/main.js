@@ -26,10 +26,18 @@ function backSpace(){
 
 function getResult(){
     try{
-        let dispValue = document.getElementById('display').value;
-        document.getElementById('display').value = eval(dispValue);
-        isResultCalculated = true;
+        let getEquation = document.getElementById('display').value;
+        appendHistory(getEquation)
+        let result = eval(getEquation);
+        appendHistory(result)
+        document.getElementById('display').value = result;
     }catch (err) {
-        document.getElementById('error-block').innerHTML = err.message;
+        appendHistory(err.message);
+    } finally {
+        isResultCalculated = true;
     }
+}
+
+function appendHistory(history){
+    document.getElementById('historyText').innerText += `${history}\n`;
 }
