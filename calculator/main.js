@@ -31,10 +31,18 @@ function backSpace(){
 function getResult(){
     try{
         let getEquation = document.getElementById('display').value;
-        appendHistory(getEquation)
-        let result = eval(getEquation);
-        appendHistory(result)
-        document.getElementById('display').value = result;
+        let result;
+        if (!getEquation){
+            result = "";
+            document.getElementById('display').value = result;
+        }
+        else{
+            result = eval(getEquation)
+            document.getElementById('display').value = result;
+            appendHistory(getEquation)
+            appendHistory(result)
+        }
+
     }catch (err) {
         appendHistory(err.message);
     } finally {
