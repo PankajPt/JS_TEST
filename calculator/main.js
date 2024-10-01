@@ -7,6 +7,9 @@ function clearDisplay(clearCmd){
     }
 }
 
+function clearHistory(){
+    document.getElementById('historyText').innerText = "";
+}
 function getNumber(number){
     clearDisplay();
     return document.getElementById('display').value += number;
@@ -21,6 +24,7 @@ function backSpace(){
     let str = document.getElementById('display').value;
     let len = str.length;
     let newDisplay = str.slice(0, len - 1 );
+    isResultCalculated = false;
     return document.getElementById('display').value = newDisplay;
 }
 
