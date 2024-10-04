@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input and Hex Value Boxes</title>
+    <title>Hex Converter</title>
 </head>
 <body>
 <link rel="stylesheet" href="HexStyle.css">
@@ -11,13 +11,13 @@
     <div class="box input-box">
         <label for="text-input">Text or Numeric Input</label>
         <input type="text" id="text-input" placeholder="Enter text or number">
+        <button class="convert-btn" id="convert-btn">Convert</button>
     </div>
 
     <div class="box hex-box">
         <label for="hex-value">Hex Value</label>
-        <input type="text" id="hex-value" placeholder="#000000">
+        <input type="text" id="hex-value" placeholder="#000000" readonly>
         <div class="buttons">
-            <button id="convert-btn">Convert</button>
             <button class="copy-btn" id="copy-btn">Copy</button>
         </div>
     </div>

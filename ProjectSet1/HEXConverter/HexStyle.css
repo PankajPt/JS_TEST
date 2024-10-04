@@ -29,6 +29,21 @@ body {
     border: 1px solid #ddd;
 }
 
+.input-box .convert-btn {
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-box .convert-btn:hover {
+    opacity: 0.8;
+}
+
 .hex-box {
     display: flex;
     flex-direction: column;
@@ -44,24 +59,19 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 10px;
 }
 
-.buttons button {
-    padding: 10px 20px;
-    background-color: #007BFF;
+.buttons button.copy-btn {
+    background-color: #28a745;
+    padding: 10px;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.buttons button.copy-btn {
-    background-color: #28a745;
-    padding: 10px;
-}
-
-.buttons button:hover {
+.buttons button.copy-btn:hover {
     opacity: 0.8;
 }
