@@ -7,6 +7,9 @@ function clearDisplay(clearCmd){
     }
 }
 
+function clearHistory(){
+    document.getElementById('historyText').innerText = "";
+}
 function getNumber(number){
     clearDisplay();
     return document.getElementById('display').value += number;
@@ -21,15 +24,32 @@ function backSpace(){
     let str = document.getElementById('display').value;
     let len = str.length;
     let newDisplay = str.slice(0, len - 1 );
+    isResultCalculated = false;
     return document.getElementById('display').value = newDisplay;
 }
 
 function getResult(){
     try{
-        let dispValue = document.getElementById('display').value;
-        document.getElementById('display').value = eval(dispValue);
-        isResultCalculated = true;
+        let getEquation = document.getElementById('display').value;
+        let result;
+        if (!getEquation){
+            result = "";
+            document.getElementById('display').value = result;
+        }
+        else{
+            result = eval(getEquation)
+            document.getElementById('display').value = result;
+            appendHistory(getEquation)
+            appendHistory(result)
+        }
+
     }catch (err) {
-        document.getElementById('error-block').innerHTML = err.message;
+        appendHistory(err.message);
+    } finally {
+        isResultCalculated = true;
     }
+}
+
+function appendHistory(history){
+    document.getElementById('historyText').innerText += `${history}\n`;
 }

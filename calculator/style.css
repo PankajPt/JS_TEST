@@ -13,6 +13,11 @@
     text-align: center;
     border: 2px solid #000;
     border-radius: 10px;
+    background-color: #5c5b5c;
+}
+
+.history {
+    overflow: auto;
 }
 
 input {
@@ -22,6 +27,7 @@ input {
     padding: 5px 0;
     border-radius: 10px;
     font-size: 18px;
+    background-color: #fff;
 }
 
 button {
@@ -50,4 +56,16 @@ button {
     margin: 80px;
     padding: 20px;
     text-align: center;
+    position: relative;
+}
+
+#clearHistory{
+    background-color: #f8d7da;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0px;
+    height: 25px;
+    font-size: 15px;
 }
