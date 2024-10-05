@@ -1,8 +1,9 @@
-let isResultCalculated = false;
+let isResultReady = false;
+let isOperatorActive = false;
 
 function clearDisplay(clearCmd){
-    if (isResultCalculated || clearCmd === 'AC'){
-        isResultCalculated = false;
+    if (isResultReady || clearCmd === 'AC'){
+        isResultReady = false;
         return document.getElementById('display').value = "";
     }
 }
@@ -12,19 +13,30 @@ function clearHistory(){
 }
 function getNumber(number){
     clearDisplay();
+    isOperatorActive = false;
     return document.getElementById('display').value += number;
 }
 
 function getOperator(operator){
-    isResultCalculated = false;
-    return document.getElementById('display').value += operator;
+    isResultReady = false;
+    let currentDisplay = document.getElementById('display').value;
+    if (!isOperatorActive){
+        document.getElementById('display').value += operator;
+        isOperatorActive = true;
+    } else {
+        let newOperator = currentDisplay.slice(0, currentDisplay.length - 1);
+        newOperator += operator;
+        document.getElementById('display').value = newOperator;
+        isOperatorActive = true;
+    }
+    
 }
 
 function backSpace(){
     let str = document.getElementById('display').value;
     let len = str.length;
     let newDisplay = str.slice(0, len - 1 );
-    isResultCalculated = false;
+    isResultReady = false;
     return document.getElementById('display').value = newDisplay;
 }
 
@@ -46,7 +58,7 @@ function getResult(){
     }catch (err) {
         appendHistory(err.message);
     } finally {
-        isResultCalculated = true;
+        isResultReady = true;
     }
 }
 
