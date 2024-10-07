@@ -75,3 +75,24 @@ body {
 .buttons button.copy-btn:hover {
     opacity: 0.8;
 }
+
+.popup {
+    visibility: hidden;
+    min-width: 200px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
