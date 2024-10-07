@@ -7,6 +7,7 @@ function hexConverter(){
         }
         document.getElementById('hex-value').value = hexDump;
     } else {
+        document.getElementById('hex-value').value = "";
         alert("Input required: Please enter text or a number.");
     }
 }
