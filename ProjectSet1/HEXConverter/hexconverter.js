@@ -11,3 +11,12 @@ function hexConverter(){
 let convertBtn = document.getElementById('convert-btn')
 convertBtn.addEventListener('click', hexConverter);
 
+function copy(){
+    const copyText = document.querySelector('#hex-value');
+    copyText.select();
+    document.execCommand('copy');
+}
+
+let copyBtn = document.getElementById('copy-btn');
+copyBtn.addEventListener('click', copy);
+
