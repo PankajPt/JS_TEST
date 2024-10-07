@@ -11,3 +11,8 @@ cd path/to/your/html-file
 ```
 live-server
 ```
+#### 4. Update repo/file in codespace
+```
+git pull origin <branch-name>
+
+```
