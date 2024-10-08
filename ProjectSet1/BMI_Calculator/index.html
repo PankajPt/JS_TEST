@@ -5,31 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="../styles.css" />
     <title>BMI Calculator</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
       <a href="/" aria-current="page">Home</a>
-      <a target="_blank" href="https://github.com/PankajPt/JS_TEST/"
-        >GitHub</a
-      >
+      <a target="_blank" href="https://github.com/PankajPt/JS_TEST/">GitHub</a>
     </nav>
     <div class="container">
       <h1>BMI Calculator</h1>
-      <form>
-        <p><label>Height in CM: </label><input type="text" id="height" /></p>
-        <p><label>Weight in KG: </label><input type="text" id="weight" /></p>
-        <button>Calculate</button>
-        <div id="results"></div>
-        <div id="weight-guide">
+      <form class="bmi-form">
+        <p><label for="height">Height (CM): </label><input type="text" id="height" /></p>
+        <p><label for="weight">Weight (KG): </label><input type="text" id="weight" /></p>
+        <button class="button">Calculate</button>
+        <div id="results" class="results"></div>
+        <div id="weight-guide" class="weight-guide">
           <h3>BMI Weight Guide</h3>
-          <p>Under Weight = Less than 18.6</p>
-          <p>Normal Range = 18.6 and 24.9</p>
+          <p>Underweight = Less than 18.6</p>
+          <p>Normal Range = 18.6 to 24.9</p>
           <p>Overweight = Greater than 24.9</p>
         </div>
+        <div class="popup" id="popup">BMI Index will appear here.</div>
       </form>
     </div>
   </body>
-  <script src=""></script>
+  <script src="626d69.js"></script>
 </html>

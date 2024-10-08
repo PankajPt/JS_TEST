@@ -1,47 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  position: fixed;  
+  top: 0;           
+  left: 0;          
+  z-index: 1000;    
+}
+
 .container {
-    width: 575px;
-    height: 825px;
-  
-    background-color: #797978;
-    padding-left: 30px;
-  }
-  #height,
-  #weight {
-    width: 150px;
-    height: 25px;
-    margin-top: 30px;
-  }
-  
-  #weight-guide {
-    margin-left: 75px;
-    margin-top: 25px;
-  }
-  
-  #results {
-    font-size: 35px;
-    margin-left: 90px;
-    margin-top: 20px;
-    color: rgb(241, 241, 241);
-  }
-  
-  button {
-    width: 150px;
-    height: 35px;
-    margin-left: 90px;
-    margin-top: 25px;
-    background-color: #fff;
-    padding: 1px 30px;
-    border-radius: 8px;
-    color: #212121;
-    text-decoration: none;
-    border: 2px solid #212121;
-  
-    font-size: 25px;
-  }
-  
-  h1 {
-    padding-left: 15px;
-    padding-top: 25px;
-    
-  }
-  
+  background-color: #ffffff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 80px;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+}
+
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bmi-form p {
+  margin-bottom: 20px;
+}
+
+.bmi-form label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  font-size: 16px;
+}
+
+#height,
+#weight {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.results {
+  font-size: 20px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.weight-guide {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  color: #444;
+}
+
+.popup {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+}
