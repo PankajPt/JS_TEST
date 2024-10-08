@@ -7,13 +7,13 @@ function calculateBMI(){
 
         let resultBmi = (weightInKg / ((heightInCm/100)**2)).toFixed(1);
         if ( resultBmi < 18.6){
-            let popText = `Your BMI index is: ${resultBmi}`;
+            let popText = `"Underweight" Your BMI index is: ${resultBmi}`;
             pop(popText);
         } else if (resultBmi >= 18.6 && resultBmi <= 24.9  ) {
-            let popText = `Your BMI index is: ${resultBmi}`;
+            let popText = `"Normal Range" Your BMI index is: ${resultBmi}`;
             pop(popText);
         } else {
-            let popText = `Your BMI index is: ${resultBmi}`;
+            let popText = `"Overweight" Your BMI index is: ${resultBmi}`;
             pop(popText);
         }
     } else {
@@ -26,7 +26,7 @@ function pop(text){
 }
 
 let button = document.querySelector('.button');
-button.addEventListener('click', function (event) {
+button.addEventListener('submit', function (event) {
     event.preventDefault();
     calculateBMI();
 });
