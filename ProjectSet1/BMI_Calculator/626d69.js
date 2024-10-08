@@ -25,8 +25,8 @@ function pop(text){
     getText.textContent = text;
 }
 
-let button = document.querySelector('.button');
-button.addEventListener('submit', function (event) {
+let form = document.querySelector('form');
+form.addEventListener('submit', function (event) {
     event.preventDefault();
     calculateBMI();
 });
