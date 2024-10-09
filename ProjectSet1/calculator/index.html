@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body style="background-color: #212121;">
+<body>
     <div class="container">
         <div class="calculator">
             <input type="text" id="display" disabled>
-            <br>
             <br>
             <button id="ac" onclick="clearDisplay('AC')">AC</button>
             <button id="percent" onclick="getOperator('%')">%</button>
@@ -37,11 +36,11 @@
             <button id="dot" onclick="getNumber('.')">.</button>
             <button id="equalto" onclick="getResult()">=</button>
         </div>
+
         <div id="error-block" class="history">
-            <h4 style="text-align: left; margin: 0px;">History</h4>
+            <h4>History</h4>
             <button id="clearHistory" onclick="clearHistory()">Clear</button>
-            <br>
-            <p id="historyText" style="text-align: left; margin: 0px;"></p>
+            <p id="historyText"></p>
         </div>
     </div>
     <script src="main.js"></script>
