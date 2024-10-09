@@ -1,9 +1,10 @@
 const guessHistory = [];
 let guessesLeft = 10;
-let targetNumber = Math.round(Math.random() * 100 + 1);
+let targetNumber = Math.floor(Math.random() * 15 + 1);
 let submit = document.querySelector('form');
 let guesses = document.querySelector('.guesses');
 document.querySelector('.lastResult').textContent = guessesLeft;
+console.log(targetNumber)
 
 function resetTagetNum(){
     targetNumber = Math.round(Math.random() * 100 + 1)
@@ -26,16 +27,24 @@ function validateGuess(userInput){
         guesses.innerHTML = guessHistory;
         document.querySelector('.lowOrHi').textContent = "Almost there! Give it another shot!";
     }
+
 }
 submit.addEventListener('submit', function(event){
     event.preventDefault();
-    let userGuess = parseInt(document.getElementById('guessField').value);
-    validateGuess(userGuess);
+    let userGuess = document.getElementById('guessField').value;
+    if (isNaN(parseInt(userGuess))){
+        guessHistory.push(userGuess);
+        guesses.innerHTML = guessHistory;
+        document.getElementById('guessField').value = ""
+        alert("Enter valid number between 1 - 15");
+    } else {
+        validateGuess(parseInt(userGuess))
+        document.getElementById('guessField').value = ""
+    }
     counter();
     if (guessesLeft <= 0){
         document.getElementById('subt').disabled = true;
-        document.querySelector('.lowOrHi').textContent = "All attempts exhausted. Try again!";
-        console.log("after reset" + targetNumber)
+        document.querySelector('.lowOrHi').innerHTML += `<br><span>All attempts exhausted.</span>`;
     }
 });
-console.log(targetNumber)
+
