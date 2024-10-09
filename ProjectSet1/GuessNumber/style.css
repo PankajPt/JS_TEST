@@ -87,7 +87,7 @@
         }
 
         #subt {
-            width: 100%;
+            width: 90%;
             padding: 15px;
             font-size: 20px;
             background: linear-gradient(90deg, #00ffcc, #ff0066);
@@ -127,4 +127,13 @@
             #subt, #guessField {
                 font-size: 18px;
             }
+        }
+
+        #start:hover {
+            background: linear-gradient(90deg, #ff0066, #00ffcc);
+            cursor: pointer;
+            padding: 10px;
+            color: #fff;
+            border: 5px;
+            border-radius: 10px;
         }
