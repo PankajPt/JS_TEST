@@ -1,9 +1,9 @@
 let guessLeft = 10;
+let range = 100;
 let guessList = [];
-let targetNumber = Math.floor(Math.random() * 15 + 1);
+let targetNumber = Math.floor(Math.random() * range + 1);
 let userInput = document.getElementById('guessField');
 let submit = document.getElementById('subt');
-let range = 15;
 let p = document.createElement('p');
 let lowOrHi = document.querySelector('.lowOrHi');
 let prevGuess = document.querySelector('.guesses');
@@ -21,6 +21,7 @@ if (gameOn){
 
 function checkInput(num){
     if (isNaN(num) || num > range || num <= 0 ){
+        userInput.value = "";
         alert(`Please enter valid number between 1 - ${range}`);
     } else {
         checkAttempt(num);
