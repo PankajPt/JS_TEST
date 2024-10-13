@@ -4,6 +4,37 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 25px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
 
 /* Background with gradient */
 body {

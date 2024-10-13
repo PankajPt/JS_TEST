@@ -71,7 +71,7 @@ if (currentPage.includes('checklist_1.html')){
         }
 
         const clusterBox = document.querySelectorAll('.box');
-        clusterBox.forEach(function(cluster, index){
+        clusterBox.forEach(function(cluster){
             cluster.addEventListener('click', function(){
                 const clusterNum = cluster.textContent
                 sessionStorage.setItem('index', clusterNum)
