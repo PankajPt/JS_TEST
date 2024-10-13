@@ -85,7 +85,6 @@ if (currentPage.includes('checklist_1.html')){
 }
 
 if (currentPage.includes('tasklist.html')){
-    console.log(sessionStorage)
     const tasklist = sessionStorage.getItem('tasklist')
     if (!tasklist || tasklist === 'false'){
         location.href = 'index.html'
