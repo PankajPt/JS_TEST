@@ -1,4 +1,4 @@
-let guessLeft = 10;
+let guessLeft = 7;
 let range = 100;
 let guessList = [];
 let targetNumber = Math.floor(Math.random() * range + 1);
@@ -69,6 +69,7 @@ function displayMessage(message){
 
 function gameOver(){
     userInput.value = '';
+    clearScreen();
     userInput.setAttribute('disabled', '');
     submit.setAttribute('disabled', '');
     p.classList.add('button');
