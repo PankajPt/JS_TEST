@@ -19,7 +19,7 @@ let addNote = (title, body) => {
         body
     }
     notesArr.push(note)
-    fs.writeFileSync('noteData.json', JSON.stringify(notesArr))
+    fs.writeFileSync('noteData.json', JSON.stringify(notesArr, null, 2))
 }
 
 // List all items
