@@ -69,8 +69,18 @@ let removeNote = (title) => {
 
 // Read note
 let getNote = (title) => {
-    const note = JSON.parse(fs.readFileSync('noteData.json', 'utf-8'));
-    console.log(`${title}: ${note[0].body}`)
+    const notes = JSON.parse(fs.readFileSync('noteData.json', 'utf-8'));
+    for (const note of notes){
+        if ( note.title === title){
+            duplicateValue=true
+            index = notes.indexOf(note)
+        }
+    }
+    if ( duplicateValue && index !== -1){
+        console.log(`${title}: ${notes[index].body}`)
+    } else {
+        console.log(`Mentioned title: "${title}" not found in notes list.`)
+    }
 }
 
 // Update text in notes
