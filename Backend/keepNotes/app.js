@@ -17,6 +17,8 @@ if (userCmd === 'add'){
     notes.getNote(yArgv.title)
 } else if( userCmd === 'remove' ){
     notes.removeNote(yArgv.title)
+} else if ( userCmd === 'update'){
+    notes.updateNote(yArgv.title, yArgv.body)
 } else {
     console.log('Command not recognize.')
 }
