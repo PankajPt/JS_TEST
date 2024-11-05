@@ -1,9 +1,11 @@
 const fs = require('fs');
-const { indexOf, split } = require('lodash');
+// const { unlinkSync } = require('node:fs');
+const unlinkSync = fs.unlinkSync;
 let duplicateValue = false;
 let index = -1;
-// Add Note
 const notesArr = [];
+let noteArrLen = notesArr.length;
+
 let pushData = (title, body) => {
     const note = {
         title,
@@ -14,24 +16,36 @@ let pushData = (title, body) => {
     console.log(`Note added in database.`)
 }
 
-let addNote = (title, body) => {
-    if ( fs.existsSync('noteData.json')){
+const emptyFileHandler = () => {
+    if (fs.existsSync('noteData.json')){
         const data = fs.readFileSync('noteData.json', 'utf-8')
-        try {
-            const parseData = JSON.parse(data)
-            notesArr.push(...parseData)
-            for (const arr of notesArr){
-                if( arr.title === title ){
-                    duplicateValue = true
-                }
+        if ( !data ) {
+            try {
+                unlinkSync('noteData.json')
+                console.log(`The corrupted file was cleared successfully.`)
+            } catch (error) {
+                console.log(`An error occurred while clearing the file. Please remove "noteData.json" manually\nERROR:${error.message}`)
             }
-            if (duplicateValue){
-                console.log(`Duplicate values are not allowed in ADD method. Please use update to modifiy existing notes.`)
-            } else {
-                pushData(title, body)
+        } else {
+            const parseData = JSON.parse(data);
+            notesArr.push(...parseData);
+            noteArrLen = notesArr.length
+        }
+    }
+}
+// Add Note
+let addNote = (title, body) => {
+    emptyFileHandler();
+    if ( noteArrLen ){
+        for (const arr of notesArr){
+            if( arr.title === title ){
+                duplicateValue = true
             }
-        } catch (error) {
-            console.log(`Error: ${error.message}`)
+        }
+        if (duplicateValue){
+            console.log(`Duplicate values are not allowed in ADD method. Please use update to modifiy existing notes.`)
+        } else {
+            pushData(title, body)
         }
     } else {
         pushData(title, body)
@@ -40,9 +54,13 @@ let addNote = (title, body) => {
 
 // List all items
 let getAll = () => {
-    const notes = JSON.parse(fs.readFileSync('noteData.json', 'utf-8'))
-    for (const note of notes){
-        console.log(`Title: ${note.title}\t Body: ${note.body}`)
+    emptyFileHandler();
+    if ( noteArrLen ){
+        for (const arr of notesArr){
+            console.log(`Title: ${arr.title}\t Body: ${arr.body}`)
+        }
+    } else {
+        console.log(`Data not available.`);
     }
 }
 

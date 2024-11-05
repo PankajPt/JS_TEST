@@ -1,11 +1,10 @@
-console.log('Starting application...')
 const yargs = require('yargs');
 const notes = require('./notes.js')
 
 // const _ = require('lodash');
 // console.log(process.argv)
 // console.log(yArgv);
-
+console.log('Initializing QuickNotes...')
 const userCmd = process.argv[2];
 const yArgv = yargs.argv;
 
