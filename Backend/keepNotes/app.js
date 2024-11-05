@@ -1,12 +1,12 @@
 const yargs = require('yargs');
-const notes = require('./notes.js')
-
-// const _ = require('lodash');
-// console.log(process.argv)
-// console.log(yArgv);
-console.log('Initializing QuickNotes...')
-const userCmd = process.argv[2];
 const yArgv = yargs.argv;
+const notes = require('./notes.js')
+const userCmd = process.argv[2];
+// console.log(process.argv)
+// console.log(yargs.argv);
+// console.log(process.argv)
+
+console.log('Initializing QuickNotes...')
 
 if (userCmd === 'add'){
     notes.addNote(yArgv.title, yArgv.body)
