@@ -16,6 +16,7 @@ let pushData = (title, body) => {
     console.log(`Note added in database.`)
 }
 
+//remove file in case of no data(blank file) or update array with file data 
 const emptyFileHandler = () => {
     if (fs.existsSync('noteData.json')){
         const data = fs.readFileSync('noteData.json', 'utf-8')
@@ -88,27 +89,29 @@ let removeNote = (title) => {
 
 // Read note
 let getNote = (title) => {
-    const notes = JSON.parse(fs.readFileSync('noteData.json', 'utf-8'));
-    for (const note of notes){
-        if ( note.title === title){
-            duplicateValue=true
-            index = notes.indexOf(note)
+    emptyFileHandler();
+    if ( noteArrLen ){
+        for (const note of notesArr){
+            if ( note.title === title){
+                duplicateValue=true
+                index = notesArr.indexOf(note)
+            }
         }
-    }
-    if ( duplicateValue && index !== -1){
-        console.log(`${title}: ${notes[index].body}`)
+        if ( duplicateValue && index !== -1){
+            console.log(`${title}: ${notesArr[index].body}`)
+        } else {
+            console.log(`Mentioned title: "${title}" not found in notes list.`)
+        }
     } else {
-        console.log(`Mentioned title: "${title}" not found in notes list.`)
-    }
+        console.log(`Data not available—file is empty`)
+    }   
 }
 
 // Update text in notes
 let updateNote = (title, body) => {
-        if ( fs.existsSync('noteData.json')){
-        const data = fs.readFileSync('noteData.json', 'utf-8')
+    emptyFileHandler();
+    if ( noteArrLen ){
         try {
-            const parseData = JSON.parse(data)
-            notesArr.push(...parseData)
             for (const arr of notesArr){
                 if( arr.title === title ){
                     duplicateValue=true;
@@ -122,16 +125,15 @@ let updateNote = (title, body) => {
             } else {
                 console.log(`Mentioned title: "${title}" not found in notes list.`)
             }
-            // console.log(notesArr)
         } catch (error) {
             console.log(`Error: ${error.message}`)
         }
     } else {
         console.log('"noteData.json" File not found.')
-    }
-
-
+    }    
 }
+
+// update exports object with newly created functions 
 module.exports = {
     addNote,
     getAll,
