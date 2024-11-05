@@ -66,9 +66,8 @@ let getAll = () => {
 
 // Remove note
 let removeNote = (title) => {
-    if ( fs.existsSync('noteData.json')){
-        const data = JSON.parse(fs.readFileSync('noteData.json', 'utf-8'))
-        notesArr.push(...data)
+    emptyFileHandler();
+    if ( noteArrLen ){
         for ( const element of notesArr ){
             if ( element.title === title ){
                 duplicateValue=true;
@@ -82,6 +81,8 @@ let removeNote = (title) => {
         } else {
             console.log(`Mentioned title: "${title}" not found in notes list.`)
         }
+    } else {
+        console.log(`Data not available—file is empty`)
     }
 }
 

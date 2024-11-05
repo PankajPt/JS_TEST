@@ -1,14 +1,10 @@
 [
   {
     "title": "Task 1",
-    "body": "This is test note 1."
-  },
-  {
-    "title": "Task 3",
-    "body": "This is updated text"
+    "body": "Object Destructuring: The require('node:fs') returns an object containing all the methods and properties of the fs module. The destructuring assignment extracts the unlinkSync method from that object and binds it to the unlinkSync variable."
   },
   {
     "title": "Task 2",
-    "body": "This is another task to be completed.."
+    "body": "This technique helps you to directly access methods or properties without needing to reference them as fs.methodName"
   }
 ]
