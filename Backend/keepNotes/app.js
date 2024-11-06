@@ -1,10 +1,36 @@
 const yargs = require('yargs');
-const yArgv = yargs.argv;
+const titleOptions = {
+    describe: 'Title of note',
+    demand: true,
+    alias: 't'
+}
+const bodyOptions = {
+    describe: 'Content of note',
+    demand: true,
+    alias: 'b'
+}
+const yArgv = yargs
+    .command('add', 'Add new note', {
+        title: titleOptions,
+        body: bodyOptions
+    })
+    .command('list', 'All note list')
+    .command('read', 'View specific note', {
+        title: titleOptions
+    })
+    .command('remove', 'Remove note from database', {
+        title: titleOptions
+    })
+    .command('update', 'Update content of note.', {
+        title: titleOptions,
+        body: bodyOptions
+    })
+    .help()
+    .version('1.0.1')
+    .argv;
+
 const notes = require('./notes.js')
 const userCmd = process.argv[2];
-// console.log(process.argv)
-// console.log(yargs.argv);
-// console.log(process.argv)
 
 console.log('Initializing QuickNotes...')
 
