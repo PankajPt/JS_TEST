@@ -32,7 +32,7 @@ const yArgv = yargs
 const notes = require('./notes.js')
 const userCmd = process.argv[2];
 
-console.log('Initializing QuickNotes...')
+console.log('Initializing QuickNotes....')
 
 if (userCmd === 'add'){
     notes.addNote(yArgv.title, yArgv.body)
@@ -45,5 +45,5 @@ if (userCmd === 'add'){
 } else if ( userCmd === 'update'){
     notes.updateNote(yArgv.title, yArgv.body)
 } else {
-    console.log('Command not recognize.')
+    console.log('This application was run without arguments. Try --help for usage instructions.')
 }
