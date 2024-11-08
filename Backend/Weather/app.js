@@ -12,5 +12,14 @@ const argv = yargs
     .argv;
 let encodedAddr = encodeURIComponent(argv.addr)
 
-geocode.fetchCoordinates(encodedAddr);
-// const data = JSON.parse(fs.readFileSync('sample.json', 'utf-8'));
+geocode.fetchCoordinates(encodedAddr, (error, response)=>{
+    if (error){
+        console.log(`Error: ${error}`)
+    } else {
+        console.log(JSON.stringify(response, undefined, 2))
+    }
+});
+
+
+// https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid={API_KEY}
+// https://api.openweathermap.org/data/2.5/weather?lat=51.5074&lon=-0.1278&appid=your_api_key&units=metric&lang=en

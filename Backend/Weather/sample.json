@@ -1,367 +1,45 @@
 {
-    "documentation": "https://opencagedata.com/api",
-    "licenses": [
-      {
-        "name": "see attribution guide",
-        "url": "https://opencagedata.com/credits"
-      }
-    ],
-    "rate": {
-      "limit": 2500,
-      "remaining": 2493,
-      "reset": 1731110400
-    },
-    "results": [
-      {
-        "annotations": {
-          "DMS": {
-            "lat": "18° 52' 50.88000'' N",
-            "lng": "72° 56' 18.96000'' E"
-          },
-          "MGRS": "43QBA8284688902",
-          "Maidenhead": "MK68lv21pj",
-          "Mercator": {
-            "x": 8119487.811,
-            "y": 2127086.848
-          },
-          "OSM": {
-            "edit_url": "https://www.openstreetmap.org/edit?node=245652482#map=17/18.88080/72.93860",
-            "note_url": "https://www.openstreetmap.org/note/new#map=17/18.88080/72.93860&layers=N",
-            "url": "https://www.openstreetmap.org/?mlat=18.88080&mlon=72.93860#map=17/18.88080/72.93860"
-          },
-          "UN_M49": {
-            "regions": {
-              "ASIA": "142",
-              "IN": "356",
-              "SOUTHERN_ASIA": "034",
-              "WORLD": "001"
-            },
-            "statistical_groupings": [
-              "LEDC"
-            ]
-          },
-          "callingcode": 91,
-          "currency": {
-            "alternate_symbols": [
-              "Rs",
-              "৳",
-              "૱",
-              "௹",
-              "रु",
-              "₨"
-            ],
-            "decimal_mark": ".",
-            "html_entity": "&#x20b9;",
-            "iso_code": "INR",
-            "iso_numeric": "356",
-            "name": "Indian Rupee",
-            "smallest_denomination": 50,
-            "subunit": "Paisa",
-            "subunit_to_unit": 100,
-            "symbol": "₹",
-            "symbol_first": 1,
-            "thousands_separator": ","
-          },
-          "flag": "🇮🇳",
-          "geohash": "te7g7v0k8s4p4cbhjvfs",
-          "qibla": 280.39,
-          "roadinfo": {
-            "drive_on": "left",
-            "speed_in": "km/h"
-          },
-          "sun": {
-            "rise": {
-              "apparent": 1731028380,
-              "astronomical": 1731110280,
-              "civil": 1731027000,
-              "nautical": 1731025440
-            },
-            "set": {
-              "apparent": 1731069060,
-              "astronomical": 1731073560,
-              "civil": 1731070440,
-              "nautical": 1731072000
-            }
-          },
-          "timezone": {
-            "name": "Asia/Kolkata",
-            "now_in_dst": 0,
-            "offset_sec": 19800,
-            "offset_string": "+0530",
-            "short_name": "IST"
-          },
-          "what3words": {
-            "words": "relished.stocks.bravery"
-          },
-          "wikidata": "Q1113891"
-        },
-        "bounds": {
-          "northeast": {
-            "lat": 18.9208,
-            "lng": 72.9786
-          },
-          "southwest": {
-            "lat": 18.8408,
-            "lng": 72.8986
-          }
-        },
-        "components": {
-          "ISO_3166-1_alpha-2": "IN",
-          "ISO_3166-1_alpha-3": "IND",
-          "ISO_3166-2": [
-            "IN-MH"
-          ],
-          "_category": "place",
-          "_normalized_city": "Uran",
-          "_type": "city",
-          "continent": "Asia",
-          "country": "India",
-          "country_code": "in",
-          "county": "Uran Taluka",
-          "postcode": "400702",
-          "state": "Maharashtra",
-          "state_code": "MH",
-          "state_district": "Raigad",
-          "town": "Uran"
-        },
-        "confidence": 7,
-        "formatted": "Raigad, Uran - 400702, Maharashtra, India",
-        "geometry": {
-          "lat": 18.8808,
-          "lng": 72.9386
-        }
-      },
-      {
-        "annotations": {
-          "DMS": {
-            "lat": "18° 52' 53.02056'' N",
-            "lng": "72° 58' 14.37060'' E"
-          },
-          "MGRS": "43QBA8622588929",
-          "Maidenhead": "MK68lv61lm",
-          "Mercator": {
-            "x": 8123056.545,
-            "y": 2127156.389
-          },
-          "OSM": {
-            "edit_url": "https://www.openstreetmap.org/edit?way=377548455#map=17/18.88139/72.97066",
-            "note_url": "https://www.openstreetmap.org/note/new#map=17/18.88139/72.97066&layers=N",
-            "url": "https://www.openstreetmap.org/?mlat=18.88139&mlon=72.97066#map=17/18.88139/72.97066"
-          },
-          "UN_M49": {
-            "regions": {
-              "ASIA": "142",
-              "IN": "356",
-              "SOUTHERN_ASIA": "034",
-              "WORLD": "001"
-            },
-            "statistical_groupings": [
-              "LEDC"
-            ]
-          },
-          "callingcode": 91,
-          "currency": {
-            "alternate_symbols": [
-              "Rs",
-              "৳",
-              "૱",
-              "௹",
-              "रु",
-              "₨"
-            ],
-            "decimal_mark": ".",
-            "html_entity": "&#x20b9;",
-            "iso_code": "INR",
-            "iso_numeric": "356",
-            "name": "Indian Rupee",
-            "smallest_denomination": 50,
-            "subunit": "Paisa",
-            "subunit_to_unit": 100,
-            "symbol": "₹",
-            "symbol_first": 1,
-            "thousands_separator": ","
-          },
-          "flag": "🇮🇳",
-          "geohash": "te7gkmr85e4d7cjejb3y",
-          "qibla": 280.39,
-          "roadinfo": {
-            "drive_on": "left",
-            "speed_in": "km/h"
-          },
-          "sun": {
-            "rise": {
-              "apparent": 1731028320,
-              "astronomical": 1731110280,
-              "civil": 1731027000,
-              "nautical": 1731025440
-            },
-            "set": {
-              "apparent": 1731069060,
-              "astronomical": 1731073560,
-              "civil": 1731070440,
-              "nautical": 1731072000
-            }
-          },
-          "timezone": {
-            "name": "Asia/Kolkata",
-            "now_in_dst": 0,
-            "offset_sec": 19800,
-            "offset_string": "+0530",
-            "short_name": "IST"
-          },
-          "what3words": {
-            "words": "district.tropic.gobblers"
-          },
-          "wikidata": "Q15991528"
-        },
-        "bounds": {
-          "northeast": {
-            "lat": 18.8847093,
-            "lng": 72.9732284
-          },
-          "southwest": {
-            "lat": 18.8776762,
-            "lng": 72.9681774
-          }
-        },
-        "components": {
-          "ISO_3166-1_alpha-2": "IN",
-          "ISO_3166-1_alpha-3": "IND",
-          "ISO_3166-2": [
-            "IN-MH"
-          ],
-          "_category": "place",
-          "_normalized_city": "Uran",
-          "_type": "neighbourhood",
-          "continent": "Asia",
-          "country": "India",
-          "country_code": "in",
-          "county": "Uran Taluka",
-          "industrial": "Uran",
-          "state": "Maharashtra",
-          "state_code": "MH",
-          "state_district": "Raigad"
-        },
-        "confidence": 9,
-        "formatted": "Uran, Uran Taluka, India",
-        "geometry": {
-          "lat": 18.8813946,
-          "lng": 72.9706585
-        }
-      },
-      {
-        "annotations": {
-          "DMS": {
-            "lat": "18° 14' 32.24400'' N",
-            "lng": "73° 26' 6.75600'' E"
-          },
-          "MGRS": "43QCA3455817699",
-          "Maidenhead": "MK68rf28fd",
-          "Mercator": {
-            "x": 8174770.183,
-            "y": 2052558.916
-          },
-          "OSM": {
-            "note_url": "https://www.openstreetmap.org/note/new#map=17/18.24229/73.43521&layers=N",
-            "url": "https://www.openstreetmap.org/?mlat=18.24229&mlon=73.43521#map=17/18.24229/73.43521"
-          },
-          "UN_M49": {
-            "regions": {
-              "ASIA": "142",
-              "IN": "356",
-              "SOUTHERN_ASIA": "034",
-              "WORLD": "001"
-            },
-            "statistical_groupings": [
-              "LEDC"
-            ]
-          },
-          "callingcode": 91,
-          "currency": {
-            "alternate_symbols": [
-              "Rs",
-              "৳",
-              "૱",
-              "௹",
-              "रु",
-              "₨"
-            ],
-            "decimal_mark": ".",
-            "html_entity": "&#x20b9;",
-            "iso_code": "INR",
-            "iso_numeric": "356",
-            "name": "Indian Rupee",
-            "smallest_denomination": 50,
-            "subunit": "Paisa",
-            "subunit_to_unit": 100,
-            "symbol": "₹",
-            "symbol_first": 1,
-            "thousands_separator": ","
-          },
-          "flag": "🇮🇳",
-          "geohash": "tehpz0cvh3m6dct2d41e",
-          "qibla": 281.43,
-          "roadinfo": {
-            "drive_on": "left",
-            "speed_in": "km/h"
-          },
-          "sun": {
-            "rise": {
-              "apparent": 1731028200,
-              "astronomical": 1731110100,
-              "civil": 1731026820,
-              "nautical": 1731025260
-            },
-            "set": {
-              "apparent": 1731069000,
-              "astronomical": 1731073500,
-              "civil": 1731070380,
-              "nautical": 1731071940
-            }
-          },
-          "timezone": {
-            "name": "Asia/Kolkata",
-            "now_in_dst": 0,
-            "offset_sec": 19800,
-            "offset_string": "+0530",
-            "short_name": "IST"
-          },
-          "what3words": {
-            "words": "salivate.circulation.mentalities"
-          }
-        },
-        "components": {
-          "ISO_3166-1_alpha-2": "IN",
-          "ISO_3166-1_alpha-3": "IND",
-          "_category": "place",
-          "_normalized_city": "Raigad District",
-          "_type": "municipality",
-          "continent": "Asia",
-          "country": "India",
-          "country_code": "in",
-          "local_administrative_area": "Raigad District",
-          "state": "Mahārāshtra"
-        },
-        "confidence": 9,
-        "formatted": "Raigad District, Mahārāshtra, India",
-        "geometry": {
-          "lat": 18.24229,
-          "lng": 73.43521
-        }
-      }
-    ],
-    "status": {
-      "code": 200,
-      "message": "OK"
-    },
-    "stay_informed": {
-      "blog": "https://blog.opencagedata.com",
-      "mastodon": "https://en.osm.town/@opencage"
-    },
-    "thanks": "For using an OpenCage API",
-    "timestamp": {
-      "created_http": "Fri, 08 Nov 2024 05:19:45 GMT",
-      "created_unix": 1731043185
-    },
-    "total_results": 3
-  }
+  "coord": {
+    "lon": 72.8479,
+    "lat": 19.0144
+  },
+  "weather": [
+    {
+      "id": 711,
+      "main": "Smoke",
+      "description": "smoke",
+      "icon": "50n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 303.14,
+    "feels_like": 304.34,
+    "temp_min": 303.14,
+    "temp_max": 303.14,
+    "pressure": 1012,
+    "humidity": 51,
+    "sea_level": 1012,
+    "grnd_level": 1011
+  },
+  "visibility": 3000,
+  "wind": {
+    "speed": 1.54,
+    "deg": 20
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1731079418,
+  "sys": {
+    "type": 1,
+    "id": 9052,
+    "country": "IN",
+    "sunrise": 1731028341,
+    "sunset": 1731069146
+  },
+  "timezone": 19800,
+  "id": 1275339,
+  "name": "Mumbai",
+  "cod": 200
+}
