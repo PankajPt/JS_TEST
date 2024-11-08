@@ -1,8 +1,8 @@
+require('dotenv').config()
 const fs = require('node:fs')
 const https = require('node:https');
-const apiKey = 'edcf7c8716944c949fea991dc08ab10d'
 const fetchCoordinates = function (addr){
-    https.get(`https://api.opencagedata.com/geocode/v1/json?q=${addr}&key=${apiKey}`, 
+    https.get(`https://api.opencagedata.com/geocode/v1/json?q=${addr}&key=${process.env.API_KEY}`, 
         (res) => {
             let data = '';
             res.on('data', (chunk)=>{
