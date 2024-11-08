@@ -1,0 +1,246 @@
+{
+  "documentation": "https://opencagedata.com/api",
+  "licenses": [
+    {
+      "name": "see attribution guide",
+      "url": "https://opencagedata.com/credits"
+    }
+  ],
+  "rate": {
+    "limit": 2500,
+    "remaining": 2476,
+    "reset": 1731110400
+  },
+  "results": [
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "39° 48' 7.62840'' N",
+          "lng": "85° 6' 30.13200'' W"
+        },
+        "FIPS": {
+          "state": "18"
+        },
+        "MGRS": "16SFK6193907506",
+        "Maidenhead": "EM79kt62xm",
+        "Mercator": {
+          "x": -9474220.411,
+          "y": 4809870.839
+        },
+        "OSM": {
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/39.80212/-85.10837&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=39.80212&mlon=-85.10837#map=17/39.80212/-85.10837"
+        },
+        "UN_M49": {
+          "regions": {
+            "AMERICAS": "019",
+            "NORTHERN_AMERICA": "021",
+            "US": "840",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "MEDC"
+          ]
+        },
+        "callingcode": 1,
+        "currency": {
+          "alternate_symbols": [
+            "US$"
+          ],
+          "decimal_mark": ".",
+          "disambiguate_symbol": "US$",
+          "html_entity": "$",
+          "iso_code": "USD",
+          "iso_numeric": "840",
+          "name": "United States Dollar",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "$",
+          "symbol_first": 1,
+          "thousands_separator": ","
+        },
+        "flag": "🇺🇸",
+        "geohash": "dp56rmcbphz8n4w065ms",
+        "qibla": 50.83,
+        "roadinfo": {
+          "drive_on": "right",
+          "road": "Pennville Rd",
+          "speed_in": "mph"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1731068340,
+            "astronomical": 1731062820,
+            "civil": 1731066600,
+            "nautical": 1731064680
+          },
+          "set": {
+            "apparent": 1731104940,
+            "astronomical": 1731024060,
+            "civil": 1731106680,
+            "nautical": 1731108600
+          }
+        },
+        "timezone": {
+          "name": "America/Indiana/Indianapolis",
+          "now_in_dst": 0,
+          "offset_sec": -18000,
+          "offset_string": "-0500",
+          "short_name": "EST"
+        },
+        "what3words": {
+          "words": "specified.explained.paintbrush"
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "US",
+        "ISO_3166-1_alpha-3": "USA",
+        "ISO_3166-2": [
+          "US-IN"
+        ],
+        "_category": "road",
+        "_normalized_city": "Milton",
+        "_type": "road",
+        "continent": "North America",
+        "country": "United States of America",
+        "country_code": "us",
+        "road": "Pennville Rd",
+        "state": "Indiana",
+        "state_code": "IN",
+        "town": "Milton"
+      },
+      "confidence": 4,
+      "formatted": "Pennville Rd, Milton, IN, United States of America",
+      "geometry": {
+        "lat": 39.802119,
+        "lng": -85.10837
+      }
+    },
+    {
+      "annotations": {
+        "DMS": {
+          "lat": "40° 0' 1.15200'' N",
+          "lng": "86° 15' 0.97200'' W"
+        },
+        "FIPS": {
+          "state": "18"
+        },
+        "MGRS": "16TEK6399628061",
+        "Maidenhead": "EN60ua90xb",
+        "Mercator": {
+          "x": -9601336.137,
+          "y": 4838517.716
+        },
+        "OSM": {
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/40.00032/-86.25027&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=40.00032&mlon=-86.25027#map=17/40.00032/-86.25027"
+        },
+        "UN_M49": {
+          "regions": {
+            "AMERICAS": "019",
+            "NORTHERN_AMERICA": "021",
+            "US": "840",
+            "WORLD": "001"
+          },
+          "statistical_groupings": [
+            "MEDC"
+          ]
+        },
+        "callingcode": 1,
+        "currency": {
+          "alternate_symbols": [
+            "US$"
+          ],
+          "decimal_mark": ".",
+          "disambiguate_symbol": "US$",
+          "html_entity": "$",
+          "iso_code": "USD",
+          "iso_numeric": "840",
+          "name": "United States Dollar",
+          "smallest_denomination": 1,
+          "subunit": "Cent",
+          "subunit_to_unit": 100,
+          "symbol": "$",
+          "symbol_first": 1,
+          "thousands_separator": ","
+        },
+        "flag": "🇺🇸",
+        "geohash": "dp4et3f6z0174gh4zsd5",
+        "qibla": 49.96,
+        "roadinfo": {
+          "drive_on": "right",
+          "speed_in": "mph"
+        },
+        "sun": {
+          "rise": {
+            "apparent": 1731068640,
+            "astronomical": 1731063060,
+            "civil": 1731066900,
+            "nautical": 1731064980
+          },
+          "set": {
+            "apparent": 1731105180,
+            "astronomical": 1731024360,
+            "civil": 1731106920,
+            "nautical": 1731108840
+          }
+        },
+        "timezone": {
+          "name": "America/Indiana/Indianapolis",
+          "now_in_dst": 0,
+          "offset_sec": -18000,
+          "offset_string": "-0500",
+          "short_name": "EST"
+        },
+        "what3words": {
+          "words": "funding.grid.poster"
+        }
+      },
+      "bounds": {
+        "northeast": {
+          "lat": 41.761368,
+          "lng": -84.784592
+        },
+        "southwest": {
+          "lat": 37.771728,
+          "lng": -88.097892
+        }
+      },
+      "components": {
+        "ISO_3166-1_alpha-2": "US",
+        "ISO_3166-1_alpha-3": "USA",
+        "ISO_3166-2": [
+          "US-IN"
+        ],
+        "_category": "place",
+        "_type": "state",
+        "continent": "North America",
+        "country": "United States of America",
+        "country_code": "us",
+        "state": "Indiana",
+        "state_code": "IN"
+      },
+      "confidence": 1,
+      "formatted": "Indiana, United States of America",
+      "geometry": {
+        "lat": 40.00032,
+        "lng": -86.25027
+      }
+    }
+  ],
+  "status": {
+    "code": 200,
+    "message": "OK"
+  },
+  "stay_informed": {
+    "blog": "https://blog.opencagedata.com",
+    "mastodon": "https://en.osm.town/@opencage"
+  },
+  "thanks": "For using an OpenCage API",
+  "timestamp": {
+    "created_http": "Fri, 08 Nov 2024 10:41:26 GMT",
+    "created_unix": 1731062486
+  },
+  "total_results": 2
+}
