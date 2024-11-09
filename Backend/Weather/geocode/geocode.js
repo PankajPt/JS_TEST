@@ -12,22 +12,26 @@ const fetchCoordinates = function (addr, callback){
                 try {
                     const jsonData = JSON.parse(data);
                     fs.writeFileSync('./geocode/geocode.json', JSON.stringify(jsonData, undefined, 2))
-
-                    if (jsonData.total_results){
+                    const total_results = jsonData.total_results;
+                    if (total_results){
                         const response = {
                             Address: jsonData.results[0].formatted,
                             Latitude: jsonData.results[0].geometry.lat,
-                            Longitude: jsonData.results[0].geometry.lng
+                            Longitude: jsonData.results[0].geometry.lng,
+                            code: jsonData.status.code,
+                            message: jsonData.status.message,
+                            total_results
                         }
-                        callback(undefined, response)
+                        callback(undefined, response)//1st argument left undefined
                     } else if ( jsonData.status.message === 'invalid API key'){
                         callback('invalid API key')//2nd argument left undefined
                     } else {
                         const err = {
                             code: jsonData.status.code,
-                            message: jsonData.status.message
+                            message: jsonData.status.message,
+                            total_results
                         }
-                        callback(undefined, err)//2nd argument left undefined
+                        callback(undefined, err)//1st argument left undefined
                     }
                 } catch (error) {
                     console.log(`Error: ${error.message}`)

@@ -1,4 +1,6 @@
+console.log(`Initializing weather application...\n`)
 const geocode = require('./geocode/geocode.js');
+const weather = require('./wea-data/weather.js');
 const yargs = require('yargs');
 const argv = yargs
     .option('address',
@@ -12,14 +14,25 @@ const argv = yargs
     .argv;
 let encodedAddr = encodeURIComponent(argv.addr)
 
+console.log(`Fetching latitude and longitude for the specified address...`)
 geocode.fetchCoordinates(encodedAddr, (error, response)=>{
     if (error){
         console.log(`Error: ${error}`)
     } else {
-        console.log(JSON.stringify(response, undefined, 2))
+        if (response.total_results){
+            console.log(`Coordinates located.\nFetching current weather information...`)
+            console.log(`Address: ${response.Address}`)
+            const lat = response.Latitude
+            const lng = response.Longitude
+            weather.fetchWeatherData(lat, lng, (err, res)=>{
+                if (err){
+                    console.log(err)
+                } else {
+                    console.log(JSON.stringify(res, undefined, 2))
+                }
+            })
+        } else {
+            console.log(`Total Results: ${response.total_results}`)   
+        }
     }
 });
-
-
-// https://api.openweathermap.org/data/2.5/weather?q=mumbai&appid={API_KEY}
-// https://api.openweathermap.org/data/2.5/weather?lat=51.5074&lon=-0.1278&appid=your_api_key&units=metric&lang=en

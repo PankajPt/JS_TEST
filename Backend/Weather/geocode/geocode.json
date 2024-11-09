@@ -8,1234 +8,241 @@
   ],
   "rate": {
     "limit": 2500,
-    "remaining": 2464,
-    "reset": 1731110400
+    "remaining": 2467,
+    "reset": 1731196800
   },
   "results": [
     {
       "annotations": {
         "DMS": {
-          "lat": "33° 17' 42.72828'' N",
-          "lng": "132° 35' 55.11660'' E"
+          "lat": "19° 4' 53.67792'' N",
+          "lng": "72° 53' 11.85900'' E"
         },
-        "MGRS": "53SKS7639986587",
-        "Maidenhead": "PM63hh10uu",
+        "MGRS": "43QBB7763611194",
+        "Maidenhead": "MK69kb69jn",
         "Mercator": {
-          "x": 14760813.474,
-          "y": 3911098.215
+          "x": 8113702.263,
+          "y": 2150580.862
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=811018694#map=17/33.29520/132.59864",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/33.29520/132.59864&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=33.29520&mlon=132.59864#map=17/33.29520/132.59864"
+          "edit_url": "https://www.openstreetmap.org/edit?relation=7888990#map=17/19.08158/72.88663",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/19.08158/72.88663&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=19.08158&mlon=72.88663#map=17/19.08158/72.88663"
         },
         "UN_M49": {
           "regions": {
             "ASIA": "142",
-            "EASTERN_ASIA": "030",
-            "JP": "392",
+            "IN": "356",
+            "SOUTHERN_ASIA": "034",
             "WORLD": "001"
           },
           "statistical_groupings": [
-            "MEDC"
+            "LEDC"
           ]
         },
-        "callingcode": 81,
+        "callingcode": 91,
         "currency": {
           "alternate_symbols": [
-            "円",
-            "圓"
+            "Rs",
+            "৳",
+            "૱",
+            "௹",
+            "रु",
+            "₨"
           ],
           "decimal_mark": ".",
-          "html_entity": "&#x00A5;",
-          "iso_code": "JPY",
-          "iso_numeric": "392",
-          "name": "Japanese Yen",
-          "smallest_denomination": 1,
-          "subunit_to_unit": 1,
-          "symbol": "¥",
+          "html_entity": "&#x20b9;",
+          "iso_code": "INR",
+          "iso_numeric": "356",
+          "name": "Indian Rupee",
+          "smallest_denomination": 50,
+          "subunit": "Paisa",
+          "subunit_to_unit": 100,
+          "symbol": "₹",
           "symbol_first": 1,
           "thousands_separator": ","
         },
-        "flag": "🇯🇵",
-        "geohash": "wvym3m5qs7df413juc8s",
-        "qibla": 289.54,
+        "flag": "🇮🇳",
+        "geohash": "te7ud9dqjxb97t1s098p",
+        "qibla": 280.06,
         "roadinfo": {
           "drive_on": "left",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731101700,
-            "astronomical": 1731096600,
-            "civil": 1731100140,
-            "nautical": 1731098340
+            "apparent": 1731114840,
+            "astronomical": 1731196740,
+            "civil": 1731113460,
+            "nautical": 1731111900
           },
           "set": {
-            "apparent": 1731053460,
-            "astronomical": 1731058560,
-            "civil": 1731055020,
-            "nautical": 1731056820
+            "apparent": 1731155460,
+            "astronomical": 1731159960,
+            "civil": 1731156840,
+            "nautical": 1731158400
           }
         },
         "timezone": {
-          "name": "Asia/Tokyo",
+          "name": "Asia/Kolkata",
           "now_in_dst": 0,
-          "offset_sec": 32400,
-          "offset_string": "+0900",
-          "short_name": "JST"
+          "offset_sec": 19800,
+          "offset_string": "+0530",
+          "short_name": "IST"
         },
         "what3words": {
-          "words": "soybeans.breakfast.bout"
+          "words": "mammals.equipment.samples"
         },
-        "wikidata": "Q11679196"
+        "wikidata": "Q1156"
       },
       "bounds": {
         "northeast": {
-          "lat": 33.2952523,
-          "lng": 132.5986935
+          "lat": 19.2694771,
+          "lng": 72.9817485
         },
         "southwest": {
-          "lat": 33.2951523,
-          "lng": 132.5985935
+          "lat": 18.8939566,
+          "lng": 72.776333
         }
       },
       "components": {
-        "ISO_3166-1_alpha-2": "JP",
-        "ISO_3166-1_alpha-3": "JPN",
+        "ISO_3166-1_alpha-2": "IN",
+        "ISO_3166-1_alpha-3": "IND",
         "ISO_3166-2": [
-          "JP-38"
-        ],
-        "_category": "place_of_worship",
-        "_normalized_city": "Uwajima",
-        "_type": "place_of_worship",
-        "city": "Uwajima",
-        "continent": "Asia",
-        "country": "Japan",
-        "country_code": "jp",
-        "place_of_worship": "41 (Ryuko-ji",
-        "postcode": "798-1115",
-        "province": "Ehime Prefecture",
-        "quarter": "三間町戸雁",
-        "state": "Ehime Prefecture"
-      },
-      "confidence": 9,
-      "formatted": "41 (Ryuko-ji, 三間町戸雁, Uwajima, Ehime Prefecture 798-1115, Japan",
-      "geometry": {
-        "lat": 33.2952023,
-        "lng": 132.5986435
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "47° 39' 35.19072'' N",
-          "lng": "1° 17' 49.86060'' E"
-        },
-        "MGRS": "31TCN7214679891",
-        "Maidenhead": "JN07pp58pi",
-        "Mercator": {
-          "x": 144401.81,
-          "y": 6018840.129
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "FR"
-          },
-          "NUTS1": {
-            "code": "FRB"
-          },
-          "NUTS2": {
-            "code": "FRB0"
-          },
-          "NUTS3": {
-            "code": "FRB05"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=7399#map=17/47.65978/1.29718",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/47.65978/1.29718&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=47.65978&mlon=1.29718#map=17/47.65978/1.29718"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "FR": "250",
-            "WESTERN_EUROPE": "155",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 33,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ",",
-          "html_entity": "€",
-          "iso_code": "EUR",
-          "iso_numeric": "978",
-          "name": "Euro",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "€",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇫🇷",
-        "geohash": "u02zjs0w6d40u91d04s5",
-        "qibla": 116.75,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731048660,
-            "astronomical": 1731042300,
-            "civil": 1731046680,
-            "nautical": 1731044460
-          },
-          "set": {
-            "apparent": 1731083160,
-            "astronomical": 1731089460,
-            "civil": 1731085140,
-            "nautical": 1731087300
-          }
-        },
-        "timezone": {
-          "name": "Europe/Paris",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "evaporation.inflamed.cocktails"
-        },
-        "wikidata": "Q12564"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 48.1333941,
-          "lng": 2.2480326
-        },
-        "southwest": {
-          "lat": 47.1862407,
-          "lng": 0.5805543
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "FR",
-        "ISO_3166-1_alpha-3": "FRA",
-        "ISO_3166-2": [
-          "FR-CVL",
-          "FR-41"
+          "IN-MH"
         ],
         "_category": "place",
-        "_type": "county",
-        "continent": "Europe",
-        "country": "France",
-        "country_code": "fr",
-        "county": "Loir-et-Cher",
-        "local_authority": "Communauté d'agglomération de Blois \"Agglopolys\"",
-        "political_union": "European Union",
-        "region": "Metropolitan France",
-        "state": "Centre-Val de Loire",
-        "state_code": "CVL"
+        "_normalized_city": "Mumbai",
+        "_type": "neighbourhood",
+        "city": "Mumbai",
+        "city_district": "Mumbai",
+        "continent": "Asia",
+        "country": "India",
+        "country_code": "in",
+        "state": "Maharashtra",
+        "state_code": "MH"
       },
-      "confidence": 1,
-      "formatted": "Loir-et-Cher, France",
+      "confidence": 3,
+      "formatted": "Mumbai, Maharashtra, India",
       "geometry": {
-        "lat": 47.6597752,
-        "lng": 1.2971835
+        "lat": 19.0815772,
+        "lng": 72.8866275
       }
     },
     {
       "annotations": {
         "DMS": {
-          "lat": "40° 46' 30.40536'' N",
-          "lng": "30° 1' 4.03176'' E"
+          "lat": "18° 58' 24.07296'' N",
+          "lng": "72° 49' 41.17764'' E"
         },
-        "MGRS": "36TTL4832318072",
-        "Maidenhead": "KN50as26da",
+        "MGRS": "43QBA7132899288",
+        "Maidenhead": "MK68jx93io",
         "Mercator": {
-          "x": 3341564.719,
-          "y": 4951315.109
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "TR"
-          },
-          "NUTS1": {
-            "code": "TR4"
-          },
-          "NUTS2": {
-            "code": "TR42"
-          },
-          "NUTS3": {
-            "code": "TR421"
-          }
+          "x": 8107187.555,
+          "y": 2137913.483
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?way=685267008#map=17/40.77511/30.01779",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/40.77511/30.01779&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=40.77511&mlon=30.01779#map=17/40.77511/30.01779"
+          "edit_url": "https://www.openstreetmap.org/edit?relation=7964376#map=17/18.97335/72.82810",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.97335/72.82810&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=18.97335&mlon=72.82810#map=17/18.97335/72.82810"
         },
         "UN_M49": {
           "regions": {
             "ASIA": "142",
-            "TR": "792",
-            "WESTERN_ASIA": "145",
+            "IN": "356",
+            "SOUTHERN_ASIA": "034",
             "WORLD": "001"
           },
           "statistical_groupings": [
             "LEDC"
           ]
         },
-        "callingcode": 90,
+        "callingcode": 91,
         "currency": {
           "alternate_symbols": [
-            "TL"
-          ],
-          "decimal_mark": ",",
-          "html_entity": "&#8378;",
-          "iso_code": "TRY",
-          "iso_numeric": "949",
-          "name": "Turkish Lira",
-          "smallest_denomination": 1,
-          "subunit": "kuruş",
-          "subunit_to_unit": 100,
-          "symbol": "₺",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇹🇷",
-        "geohash": "sxjrgnfk1pguxtbm0596",
-        "qibla": 153.81,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Bağımsızlık Caddesi",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731040800,
-            "astronomical": 1731035160,
-            "civil": 1731039060,
-            "nautical": 1731037080
-          },
-          "set": {
-            "apparent": 1731077220,
-            "astronomical": 1731082860,
-            "civil": 1731078960,
-            "nautical": 1731080940
-          }
-        },
-        "timezone": {
-          "name": "Europe/Istanbul",
-          "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "+03"
-        },
-        "what3words": {
-          "words": "financing.maxims.shamefaced"
-        },
-        "wikidata": "Q19611724"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 40.7756424,
-          "lng": 30.0182403
-        },
-        "southwest": {
-          "lat": 40.7745828,
-          "lng": 30.0173329
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "TR",
-        "ISO_3166-1_alpha-3": "TUR",
-        "ISO_3166-2": [
-          "TR-41"
-        ],
-        "_category": "outdoors/recreation",
-        "_normalized_city": "Kocaeli",
-        "_type": "pitch",
-        "city": "Kocaeli",
-        "continent": "Asia",
-        "country": "Turkey",
-        "country_code": "tr",
-        "pitch": "Kocaeli Stadium",
-        "postcode": "41000",
-        "province": "Kocaeli",
-        "quarter": "Stadyum",
-        "region": "Marmara Region",
-        "road": "Bağımsızlık Caddesi",
-        "state": "Kocaeli",
-        "suburb": "Alikahya Atatürk Mahallesi",
-        "town": "İzmit"
-      },
-      "confidence": 9,
-      "formatted": "Kocaeli Stadium, Bağımsızlık Caddesi, 41000 İzmit, Turkey",
-      "geometry": {
-        "lat": 40.7751126,
-        "lng": 30.0177866
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "39° 39' 20.21112'' N",
-          "lng": "141° 7' 15.76668'' E"
-        },
-        "MGRS": "54SWJ1038489541",
-        "Maidenhead": "QM09np47mi",
-        "Mercator": {
-          "x": 15709523.014,
-          "y": 4788749.309
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=666473795#map=17/39.65561/141.12105",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/39.65561/141.12105&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=39.65561&mlon=141.12105#map=17/39.65561/141.12105"
-        },
-        "UN_M49": {
-          "regions": {
-            "ASIA": "142",
-            "EASTERN_ASIA": "030",
-            "JP": "392",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 81,
-        "currency": {
-          "alternate_symbols": [
-            "円",
-            "圓"
+            "Rs",
+            "৳",
+            "૱",
+            "௹",
+            "रु",
+            "₨"
           ],
           "decimal_mark": ".",
-          "html_entity": "&#x00A5;",
-          "iso_code": "JPY",
-          "iso_numeric": "392",
-          "name": "Japanese Yen",
-          "smallest_denomination": 1,
-          "subunit_to_unit": 1,
-          "symbol": "¥",
+          "html_entity": "&#x20b9;",
+          "iso_code": "INR",
+          "iso_numeric": "356",
+          "name": "Indian Rupee",
+          "smallest_denomination": 50,
+          "subunit": "Paisa",
+          "subunit_to_unit": 100,
+          "symbol": "₹",
           "symbol_first": 1,
           "thousands_separator": ","
         },
-        "flag": "🇯🇵",
-        "geohash": "xph3e714wwqbvubnuxcf",
-        "qibla": 293.53,
+        "flag": "🇮🇳",
+        "geohash": "te7gcjzzcc6yz3jz0cn0",
+        "qibla": 280.24,
         "roadinfo": {
           "drive_on": "left",
-          "road": "Tohoku Expressway",
-          "road_type": "motorway_junction",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731100320,
-            "astronomical": 1731094800,
-            "civil": 1731098640,
-            "nautical": 1731096720
+            "apparent": 1731114840,
+            "astronomical": 1731196740,
+            "civil": 1731113460,
+            "nautical": 1731111900
           },
           "set": {
-            "apparent": 1731050760,
-            "astronomical": 1731056280,
-            "civil": 1731052440,
-            "nautical": 1731054360
+            "apparent": 1731155460,
+            "astronomical": 1731159960,
+            "civil": 1731156840,
+            "nautical": 1731158400
           }
         },
         "timezone": {
-          "name": "Asia/Tokyo",
+          "name": "Asia/Kolkata",
           "now_in_dst": 0,
-          "offset_sec": 32400,
-          "offset_string": "+0900",
-          "short_name": "JST"
+          "offset_sec": 19800,
+          "offset_string": "+0530",
+          "short_name": "IST"
         },
         "what3words": {
-          "words": "regard.liquids.motor"
+          "words": "logic.unearthly.workflow"
         },
-        "wikidata": "Q11581357"
+        "wikidata": "Q2341660"
       },
       "bounds": {
         "northeast": {
-          "lat": 39.6556642,
-          "lng": 141.1210963
+          "lat": 19.052585,
+          "lng": 72.9068144
         },
         "southwest": {
-          "lat": 39.6555642,
-          "lng": 141.1209963
+          "lat": 18.8939566,
+          "lng": 72.7915568
         }
       },
       "components": {
-        "ISO_3166-1_alpha-2": "JP",
-        "ISO_3166-1_alpha-3": "JPN",
+        "ISO_3166-1_alpha-2": "IN",
+        "ISO_3166-1_alpha-3": "IND",
         "ISO_3166-2": [
-          "JP-03"
+          "IN-MH"
         ],
-        "_category": "road",
-        "_normalized_city": "Morioka",
-        "_type": "road",
-        "city": "Morioka",
+        "_category": "place",
+        "_normalized_city": "Mumbai",
+        "_type": "city",
+        "city": "Mumbai",
         "continent": "Asia",
-        "country": "Japan",
-        "country_code": "jp",
-        "postcode": "020-0841",
-        "province": "Iwate Prefecture",
-        "road": "Tohoku Expressway",
-        "road_type": "motorway_junction",
-        "state": "Iwate Prefecture"
+        "country": "India",
+        "country_code": "in",
+        "state": "Maharashtra",
+        "state_code": "MH"
       },
-      "confidence": 9,
-      "formatted": "Tohoku Expressway, Morioka, Iwate Prefecture 020-0841, Japan",
+      "confidence": 5,
+      "formatted": "Mumbai, Maharashtra, India",
       "geometry": {
-        "lat": 39.6556142,
-        "lng": 141.1210463
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "40° 49' 17.95296'' N",
-          "lng": "29° 57' 2.58624'' E"
-        },
-        "MGRS": "35TQF4884323149",
-        "Maidenhead": "KN40xt47ce",
-        "Mercator": {
-          "x": 3334098.721,
-          "y": 4958132.68
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "TR"
-          },
-          "NUTS1": {
-            "code": "TR4"
-          },
-          "NUTS2": {
-            "code": "TR42"
-          },
-          "NUTS3": {
-            "code": "TR421"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=223473#map=17/40.82165/29.95072",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/40.82165/29.95072&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=40.82165&mlon=29.95072#map=17/40.82165/29.95072"
-        },
-        "UN_M49": {
-          "regions": {
-            "ASIA": "142",
-            "TR": "792",
-            "WESTERN_ASIA": "145",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 90,
-        "currency": {
-          "alternate_symbols": [
-            "TL"
-          ],
-          "decimal_mark": ",",
-          "html_entity": "&#8378;",
-          "iso_code": "TRY",
-          "iso_numeric": "949",
-          "name": "Turkish Lira",
-          "smallest_denomination": 1,
-          "subunit": "kuruş",
-          "subunit_to_unit": 100,
-          "symbol": "₺",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇹🇷",
-        "geohash": "sxm21x37q7f2cgs6sw13",
-        "qibla": 153.71,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731040800,
-            "astronomical": 1731035160,
-            "civil": 1731039060,
-            "nautical": 1731037080
-          },
-          "set": {
-            "apparent": 1731077220,
-            "astronomical": 1731082860,
-            "civil": 1731078960,
-            "nautical": 1731080940
-          }
-        },
-        "timezone": {
-          "name": "Europe/Istanbul",
-          "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "+03"
-        },
-        "what3words": {
-          "words": "pulsing.profile.wash"
-        },
-        "wikidata": "Q83965"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 41.417,
-          "lng": 30.5117269
-        },
-        "southwest": {
-          "lat": 40.52354,
-          "lng": 29.3157266
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "TR",
-        "ISO_3166-1_alpha-3": "TUR",
-        "ISO_3166-2": [
-          "TR-41"
-        ],
-        "_category": "place",
-        "_type": "state",
-        "continent": "Asia",
-        "country": "Turkey",
-        "country_code": "tr",
-        "province": "Kocaeli",
-        "region": "Marmara Region",
-        "state": "Kocaeli"
-      },
-      "confidence": 1,
-      "formatted": "Kocaeli, Turkey",
-      "geometry": {
-        "lat": 40.8216536,
-        "lng": 29.9507184
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "46° 25' 56.54136'' N",
-          "lng": "14° 3' 44.39880'' E"
-        },
-        "MGRS": "33TVM2796242516",
-        "Maidenhead": "JN76ak73ls",
-        "Mercator": {
-          "x": 1565411.749,
-          "y": 5818936.635
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "SI"
-          },
-          "NUTS1": {
-            "code": "SI0"
-          },
-          "NUTS2": {
-            "code": "SI04"
-          },
-          "NUTS3": {
-            "code": "SI042"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=1675607#map=17/46.43237/14.06233",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/46.43237/14.06233&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=46.43237&mlon=14.06233#map=17/46.43237/14.06233"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "SI": "705",
-            "SOUTHERN_EUROPE": "039",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 386,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ",",
-          "html_entity": "€",
-          "iso_code": "EUR",
-          "iso_numeric": "978",
-          "name": "Euro",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "€",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇸🇮",
-        "geohash": "u23bpuzbhje7rhp5y4mb",
-        "qibla": 131.32,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731045420,
-            "astronomical": 1731039180,
-            "civil": 1731043500,
-            "nautical": 1731041340
-          },
-          "set": {
-            "apparent": 1731080280,
-            "astronomical": 1731086460,
-            "civil": 1731082200,
-            "nautical": 1731084360
-          }
-        },
-        "timezone": {
-          "name": "Europe/Ljubljana",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "bowhead.spends.mailbox"
-        },
-        "wikidata": "Q15881"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 46.4931917,
-          "lng": 14.1534003
-        },
-        "southwest": {
-          "lat": 46.3986451,
-          "lng": 13.9870754
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "SI",
-        "ISO_3166-1_alpha-3": "SVN",
-        "ISO_3166-2": [
-          "SI-041"
-        ],
-        "_category": "place",
-        "_normalized_city": "Jesenice",
-        "_type": "municipality",
-        "continent": "Europe",
-        "country": "Slovenia",
-        "country_code": "si",
-        "municipality": "Jesenice",
-        "political_union": "European Union"
-      },
-      "confidence": 6,
-      "formatted": "Jesenice, Slovenia",
-      "geometry": {
-        "lat": 46.4323726,
-        "lng": 14.062333
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "54° 45' 15.99156'' N",
-          "lng": "25° 35' 57.33888'' E"
-        },
-        "MGRS": "35UMA0985368366",
-        "Maidenhead": "KO24ts11vb",
-        "Mercator": {
-          "x": 2849696.675,
-          "y": 7279430.802
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "LT"
-          },
-          "NUTS1": {
-            "code": "LT0"
-          },
-          "NUTS2": {
-            "code": "LT01"
-          },
-          "NUTS3": {
-            "code": "LT011"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=977316#map=17/54.75444/25.59926",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/54.75444/25.59926&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=54.75444&mlon=25.59926#map=17/54.75444/25.59926"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "LT": "440",
-            "NORTHERN_EUROPE": "154",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 370,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ",",
-          "html_entity": "€",
-          "iso_code": "EUR",
-          "iso_numeric": "978",
-          "name": "Euro",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "€",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇱🇹",
-        "geohash": "u9dpqx8zdpb3du587fkb",
-        "qibla": 156.5,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731044160,
-            "astronomical": 1731036660,
-            "civil": 1731041820,
-            "nautical": 1731039180
-          },
-          "set": {
-            "apparent": 1731075960,
-            "astronomical": 1731083460,
-            "civil": 1731078300,
-            "nautical": 1731080940
-          }
-        },
-        "timezone": {
-          "name": "Europe/Vilnius",
-          "now_in_dst": 0,
-          "offset_sec": 7200,
-          "offset_string": "+0200",
-          "short_name": "EET"
-        },
-        "what3words": {
-          "words": "vastly.workplaces.resided"
-        },
-        "wikidata": "Q118903"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 55.0463016,
-          "lng": 25.7626198
-        },
-        "southwest": {
-          "lat": 54.4626304,
-          "lng": 24.8513532
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "LT",
-        "ISO_3166-1_alpha-3": "LTU",
-        "ISO_3166-2": [
-          "LT-VL",
-          "LT-58"
-        ],
-        "_category": "place",
-        "_type": "state_district",
-        "continent": "Europe",
-        "country": "Lithuania",
-        "country_code": "lt",
-        "political_union": "European Union",
-        "state": "Vilnius County",
-        "state_code": "VL",
-        "state_district": "Vilniaus rajono savivaldybė"
-      },
-      "confidence": 1,
-      "formatted": "Vilniaus rajono savivaldybė, Lithuania",
-      "geometry": {
-        "lat": 54.7544421,
-        "lng": 25.5992608
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "36° 8' 16.32516'' N",
-          "lng": "7° 49' 34.47336'' E"
-        },
-        "MGRS": "32SLE9439499878",
-        "Maidenhead": "JM36vd93dc",
-        "Mercator": {
-          "x": 871213.346,
-          "y": 4294408.752
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=1283457#map=17/36.13787/7.82624",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/36.13787/7.82624&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=36.13787&mlon=7.82624#map=17/36.13787/7.82624"
-        },
-        "UN_M49": {
-          "regions": {
-            "AFRICA": "002",
-            "DZ": "012",
-            "NORTHERN_AFRICA": "015",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 213,
-        "currency": {
-          "alternate_symbols": [
-            "DA"
-          ],
-          "decimal_mark": ".",
-          "format": "%n %u",
-          "html_entity": "",
-          "iso_code": "DZD",
-          "iso_numeric": "012",
-          "name": "Algerian Dinar",
-          "smallest_denomination": 100,
-          "subunit": "Centime",
-          "subunit_to_unit": 100,
-          "symbol": "د.ج",
-          "symbol_first": 0,
-          "thousands_separator": ","
-        },
-        "flag": "🇩🇿",
-        "geohash": "snmtd4dykdvkp38u4hs0",
-        "qibla": 109.08,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731045600,
-            "astronomical": 1731040320,
-            "civil": 1731043980,
-            "nautical": 1731042120
-          },
-          "set": {
-            "apparent": 1731083100,
-            "astronomical": 1731088380,
-            "civil": 1731084720,
-            "nautical": 1731086520
-          }
-        },
-        "timezone": {
-          "name": "Africa/Algiers",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "snout.bony.toboggans"
-        },
-        "wikidata": "Q236772"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 36.470146,
-          "lng": 8.4096565
-        },
-        "southwest": {
-          "lat": 35.8055032,
-          "lng": 7.281606
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "DZ",
-        "ISO_3166-1_alpha-3": "DZA",
-        "ISO_3166-2": [
-          "DZ-41"
-        ],
-        "_category": "place",
-        "_type": "state",
-        "continent": "Africa",
-        "country": "Algeria",
-        "country_code": "dz",
-        "state": "Souk Ahras"
-      },
-      "confidence": 1,
-      "formatted": "Souk Ahras, Algeria",
-      "geometry": {
-        "lat": 36.1378681,
-        "lng": 7.8262426
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "60° 16' 3.30708'' N",
-          "lng": "25° 3' 41.62680'' E"
-        },
-        "MGRS": "35VLG9276382787",
-        "Maidenhead": "KP20mg74jf",
-        "Mercator": {
-          "x": 2789840.432,
-          "y": 8422416.144
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "FI"
-          },
-          "NUTS1": {
-            "code": "FI1"
-          },
-          "NUTS2": {
-            "code": "FI1B"
-          },
-          "NUTS3": {
-            "code": "FI1B1"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=190601#map=17/60.26759/25.06156",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/60.26759/25.06156&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=60.26759&mlon=25.06156#map=17/60.26759/25.06156"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "FI": "246",
-            "NORTHERN_EUROPE": "154",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 358,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ",",
-          "html_entity": "€",
-          "iso_code": "EUR",
-          "iso_numeric": "978",
-          "name": "Euro",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "€",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇫🇮",
-        "geohash": "ud9yf73k0spvcfqd82qf",
-        "qibla": 158.44,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731045780,
-            "astronomical": 1731036960,
-            "civil": 1731042900,
-            "nautical": 1731039840
-          },
-          "set": {
-            "apparent": 1731074580,
-            "astronomical": 1731083400,
-            "civil": 1731077460,
-            "nautical": 1731080520
-          }
-        },
-        "timezone": {
-          "name": "Europe/Helsinki",
-          "now_in_dst": 0,
-          "offset_sec": 7200,
-          "offset_string": "+0200",
-          "short_name": "EET"
-        },
-        "what3words": {
-          "words": "puzzle.richest.disband"
-        },
-        "wikidata": "Q3068810"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 60.2850881,
-          "lng": 25.0891139
-        },
-        "southwest": {
-          "lat": 60.2496678,
-          "lng": 25.0316046
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "FI",
-        "ISO_3166-1_alpha-3": "FIN",
-        "ISO_3166-2": [
-          "FI-18"
-        ],
-        "_category": "place",
-        "_normalized_city": "Helsinki",
-        "_type": "neighbourhood",
-        "city": "Helsinki",
-        "city_district": "Northeastern major district",
-        "continent": "Europe",
-        "country": "Finland",
-        "country_code": "fi",
-        "municipality": "Helsinki sub-region",
-        "political_union": "European Union",
-        "region": "Mainland Finland",
-        "state": "Uusimaa",
-        "suburb": "Suurmetsä"
-      },
-      "confidence": 7,
-      "formatted": "Suurmetsä, Helsinki, Uusimaa, Finland",
-      "geometry": {
-        "lat": 60.2675853,
-        "lng": 25.061563
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "41° 25' 49.36368'' N",
-          "lng": "2° 8' 55.04784'' E"
-        },
-        "MGRS": "31TDF2886586884",
-        "Maidenhead": "JN11bk73ug",
-        "Mercator": {
-          "x": 239183.774,
-          "y": 5047750.092
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "ES"
-          },
-          "NUTS1": {
-            "code": "ES5"
-          },
-          "NUTS2": {
-            "code": "ES51"
-          },
-          "NUTS3": {
-            "code": "ES511"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=4142847#map=17/41.43038/2.14862",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/41.43038/2.14862&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=41.43038&mlon=2.14862#map=17/41.43038/2.14862"
-        },
-        "UN_M49": {
-          "regions": {
-            "ES": "724",
-            "EUROPE": "150",
-            "SOUTHERN_EUROPE": "039",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 34,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ",",
-          "html_entity": "€",
-          "iso_code": "EUR",
-          "iso_numeric": "978",
-          "name": "Euro",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "€",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇪🇸",
-        "geohash": "sp3e8yht6w6kp5v5x4tc",
-        "qibla": 110.58,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731047580,
-            "astronomical": 1731041880,
-            "civil": 1731045840,
-            "nautical": 1731043860
-          },
-          "set": {
-            "apparent": 1731083820,
-            "astronomical": 1731089520,
-            "civil": 1731085560,
-            "nautical": 1731087540
-          }
-        },
-        "timezone": {
-          "name": "Europe/Madrid",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "luck.sprain.vitamins"
-        },
-        "wikidata": "Q3298492"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 41.4373324,
-          "lng": 2.1538524
-        },
-        "southwest": {
-          "lat": 41.4242173,
-          "lng": 2.142624
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "ES",
-        "ISO_3166-1_alpha-3": "ESP",
-        "ISO_3166-2": [
-          "ES-CT",
-          "ES-B"
-        ],
-        "_category": "place",
-        "_normalized_city": "Barcelona",
-        "_type": "neighbourhood",
-        "city": "Barcelona",
-        "continent": "Europe",
-        "country": "Spain",
-        "country_code": "es",
-        "county": "Barcelonès",
-        "county_code": "B",
-        "neighbourhood": "la Vall d'Hebron",
-        "political_union": "European Union",
-        "postcode": "08035",
-        "province": "Barcelona",
-        "state": "Catalonia",
-        "state_code": "CT",
-        "suburb": "Horta-Guinardó"
-      },
-      "confidence": 8,
-      "formatted": "08035 Barcelona, Spain",
-      "geometry": {
-        "lat": 41.4303788,
-        "lng": 2.1486244
+        "lat": 18.9733536,
+        "lng": 72.8281049
       }
     }
   ],
@@ -1249,8 +256,8 @@
   },
   "thanks": "For using an OpenCage API",
   "timestamp": {
-    "created_http": "Fri, 08 Nov 2024 15:14:47 GMT",
-    "created_unix": 1731078887
+    "created_http": "Sat, 09 Nov 2024 15:57:18 GMT",
+    "created_unix": 1731167838
   },
-  "total_results": 10
+  "total_results": 2
 }
