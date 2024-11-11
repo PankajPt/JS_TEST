@@ -8,26 +8,26 @@
   ],
   "rate": {
     "limit": 2500,
-    "remaining": 2467,
-    "reset": 1731196800
+    "remaining": 2497,
+    "reset": 1731369600
   },
   "results": [
     {
       "annotations": {
         "DMS": {
-          "lat": "19° 4' 53.67792'' N",
-          "lng": "72° 53' 11.85900'' E"
+          "lat": "19° 7' 36.72732'' N",
+          "lng": "73° 0' 15.99768'' E"
         },
-        "MGRS": "43QBB7763611194",
-        "Maidenhead": "MK69kb69jn",
+        "MGRS": "43QBB9009416063",
+        "Maidenhead": "MK69md00mk",
         "Mercator": {
-          "x": 8113702.263,
-          "y": 2150580.862
+          "x": 8126817.509,
+          "y": 2155884.643
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=7888990#map=17/19.08158/72.88663",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/19.08158/72.88663&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=19.08158&mlon=72.88663#map=17/19.08158/72.88663"
+          "edit_url": "https://www.openstreetmap.org/edit?way=589835170#map=17/19.12687/73.00444",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/19.12687/73.00444&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=19.12687&mlon=73.00444#map=17/19.12687/73.00444"
         },
         "UN_M49": {
           "regions": {
@@ -63,24 +63,26 @@
           "thousands_separator": ","
         },
         "flag": "🇮🇳",
-        "geohash": "te7ud9dqjxb97t1s098p",
-        "qibla": 280.06,
+        "geohash": "te7uv3bnnffb10bwkvk1",
+        "qibla": 280,
         "roadinfo": {
           "drive_on": "left",
+          "road": "RCP Flyover",
+          "road_type": "primary",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731114840,
-            "astronomical": 1731196740,
-            "civil": 1731113460,
-            "nautical": 1731111900
+            "apparent": 1731287640,
+            "astronomical": 1731369540,
+            "civil": 1731286260,
+            "nautical": 1731284700
           },
           "set": {
-            "apparent": 1731155460,
-            "astronomical": 1731159960,
-            "civil": 1731156840,
-            "nautical": 1731158400
+            "apparent": 1731328200,
+            "astronomical": 1731332700,
+            "civil": 1731329520,
+            "nautical": 1731331140
           }
         },
         "timezone": {
@@ -91,18 +93,17 @@
           "short_name": "IST"
         },
         "what3words": {
-          "words": "mammals.equipment.samples"
-        },
-        "wikidata": "Q1156"
+          "words": "parading.vision.rumble"
+        }
       },
       "bounds": {
         "northeast": {
-          "lat": 19.2694771,
-          "lng": 72.9817485
+          "lat": 19.1346556,
+          "lng": 73.005919
         },
         "southwest": {
-          "lat": 18.8939566,
-          "lng": 72.776333
+          "lat": 19.1212744,
+          "lng": 73.0035199
         }
       },
       "components": {
@@ -111,40 +112,45 @@
         "ISO_3166-2": [
           "IN-MH"
         ],
-        "_category": "place",
-        "_normalized_city": "Mumbai",
-        "_type": "neighbourhood",
-        "city": "Mumbai",
-        "city_district": "Mumbai",
+        "_category": "road",
+        "_normalized_city": "Navi Mumbai",
+        "_type": "road",
+        "city": "Navi Mumbai",
         "continent": "Asia",
         "country": "India",
         "country_code": "in",
+        "county": "Thane Taluka",
+        "neighbourhood": "Gothivali Village",
+        "postcode": "400701",
+        "road": "RCP Flyover",
+        "road_type": "primary",
         "state": "Maharashtra",
-        "state_code": "MH"
+        "state_code": "MH",
+        "state_district": "Thane",
+        "suburb": "Ghansoli"
       },
-      "confidence": 3,
-      "formatted": "Mumbai, Maharashtra, India",
+      "confidence": 8,
+      "formatted": "RCP Flyover, Ghansoli, Navi Mumbai - 400701, Maharashtra, India",
       "geometry": {
-        "lat": 19.0815772,
-        "lng": 72.8866275
+        "lat": 19.1268687,
+        "lng": 73.0044438
       }
     },
     {
       "annotations": {
         "DMS": {
-          "lat": "18° 58' 24.07296'' N",
-          "lng": "72° 49' 41.17764'' E"
+          "lat": "19° 7' 0.12000'' N",
+          "lng": "72° 58' 59.88000'' E"
         },
-        "MGRS": "43QBA7132899288",
-        "Maidenhead": "MK68jx93io",
+        "MGRS": "43QBB8785614963",
+        "Maidenhead": "MK69lc78xa",
         "Mercator": {
-          "x": 8107187.555,
-          "y": 2137913.483
+          "x": 8124463.792,
+          "y": 2154693.729
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=7964376#map=17/18.97335/72.82810",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.97335/72.82810&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=18.97335&mlon=72.82810#map=17/18.97335/72.82810"
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/19.11670/72.98330&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=19.11670&mlon=72.98330#map=17/19.11670/72.98330"
         },
         "UN_M49": {
           "regions": {
@@ -180,24 +186,24 @@
           "thousands_separator": ","
         },
         "flag": "🇮🇳",
-        "geohash": "te7gcjzzcc6yz3jz0cn0",
-        "qibla": 280.24,
+        "geohash": "te7uub0ff5hv67csk5du",
+        "qibla": 280.01,
         "roadinfo": {
           "drive_on": "left",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731114840,
-            "astronomical": 1731196740,
-            "civil": 1731113460,
-            "nautical": 1731111900
+            "apparent": 1731287640,
+            "astronomical": 1731369540,
+            "civil": 1731286260,
+            "nautical": 1731284700
           },
           "set": {
-            "apparent": 1731155460,
-            "astronomical": 1731159960,
-            "civil": 1731156840,
-            "nautical": 1731158400
+            "apparent": 1731328200,
+            "astronomical": 1731332700,
+            "civil": 1731329580,
+            "nautical": 1731331140
           }
         },
         "timezone": {
@@ -208,41 +214,25 @@
           "short_name": "IST"
         },
         "what3words": {
-          "words": "logic.unearthly.workflow"
-        },
-        "wikidata": "Q2341660"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 19.052585,
-          "lng": 72.9068144
-        },
-        "southwest": {
-          "lat": 18.8939566,
-          "lng": 72.7915568
+          "words": "mourner.throw.burglars"
         }
       },
       "components": {
         "ISO_3166-1_alpha-2": "IN",
         "ISO_3166-1_alpha-3": "IND",
-        "ISO_3166-2": [
-          "IN-MH"
-        ],
-        "_category": "place",
-        "_normalized_city": "Mumbai",
-        "_type": "city",
-        "city": "Mumbai",
+        "_category": "postcode",
+        "_type": "postcode",
         "continent": "Asia",
         "country": "India",
         "country_code": "in",
-        "state": "Maharashtra",
-        "state_code": "MH"
+        "postcode": "400701",
+        "state": "Mahārāshtra"
       },
-      "confidence": 5,
-      "formatted": "Mumbai, Maharashtra, India",
+      "confidence": 7,
+      "formatted": "400701, Mahārāshtra, India",
       "geometry": {
-        "lat": 18.9733536,
-        "lng": 72.8281049
+        "lat": 19.1167,
+        "lng": 72.9833
       }
     }
   ],
@@ -256,8 +246,8 @@
   },
   "thanks": "For using an OpenCage API",
   "timestamp": {
-    "created_http": "Sat, 09 Nov 2024 15:57:18 GMT",
-    "created_unix": 1731167838
+    "created_http": "Mon, 11 Nov 2024 04:31:43 GMT",
+    "created_unix": 1731299503
   },
   "total_results": 2
 }

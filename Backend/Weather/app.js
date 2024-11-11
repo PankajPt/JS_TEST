@@ -20,7 +20,7 @@ geocode.fetchCoordinates(encodedAddr, (error, response)=>{
         console.log(`Error: ${error}`)
     } else {
         if (response.total_results){
-            console.log(`Coordinates located.\nFetching current weather information...`)
+            console.log(`Coordinates located.\nFetching current weather information...\n`)
             console.log(`Address: ${response.Address}`)
             const lat = response.Latitude
             const lng = response.Longitude

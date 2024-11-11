@@ -92,4 +92,137 @@
   "id": 8131499,
   "name": "Konkan Division",
   "cod": 200
+}{
+  "coord": {
+    "lon": -99.3031,
+    "lat": 39.3454
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 6.42,
+    "feels_like": 4.7,
+    "temp_min": 6.42,
+    "temp_max": 6.42,
+    "pressure": 1017,
+    "humidity": 59,
+    "sea_level": 1017,
+    "grnd_level": 946
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.36,
+    "deg": 248,
+    "gust": 2.34
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1731299451,
+  "sys": {
+    "type": 1,
+    "id": 4375,
+    "country": "US",
+    "sunrise": 1731244555,
+    "sunset": 1731281195
+  },
+  "timezone": -21600,
+  "id": 4048488,
+  "name": "Stockton",
+  "cod": 200
+}{
+  "coord": {
+    "lon": 73.0044,
+    "lat": 19.1269
+  },
+  "weather": [
+    {
+      "id": 711,
+      "main": "Smoke",
+      "description": "smoke",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 28.01,
+    "feels_like": 27.96,
+    "temp_min": 28.01,
+    "temp_max": 28.96,
+    "pressure": 1014,
+    "humidity": 44,
+    "sea_level": 1014,
+    "grnd_level": 1014
+  },
+  "visibility": 2200,
+  "wind": {
+    "speed": 3.09,
+    "deg": 120
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1731299469,
+  "sys": {
+    "type": 1,
+    "id": 9052,
+    "country": "IN",
+    "sunrise": 1731287608,
+    "sunset": 1731328243
+  },
+  "timezone": 19800,
+  "id": 7279599,
+  "name": "Airoli",
+  "cod": 200
+}{
+  "coord": {
+    "lon": 73.0044,
+    "lat": 19.1269
+  },
+  "weather": [
+    {
+      "id": 711,
+      "main": "Smoke",
+      "description": "smoke",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 28.01,
+    "feels_like": 27.96,
+    "temp_min": 28.01,
+    "temp_max": 28.96,
+    "pressure": 1014,
+    "humidity": 44,
+    "sea_level": 1014,
+    "grnd_level": 1014
+  },
+  "visibility": 2200,
+  "wind": {
+    "speed": 3.09,
+    "deg": 120
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1731299469,
+  "sys": {
+    "type": 1,
+    "id": 9052,
+    "country": "IN",
+    "sunrise": 1731287608,
+    "sunset": 1731328243
+  },
+  "timezone": 19800,
+  "id": 7279599,
+  "name": "Airoli",
+  "cod": 200
 }
