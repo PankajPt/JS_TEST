@@ -8,7 +8,7 @@
   ],
   "rate": {
     "limit": 2500,
-    "remaining": 2493,
+    "remaining": 2492,
     "reset": 1731456000
   },
   "results": [
@@ -1208,8 +1208,8 @@
   },
   "thanks": "For using an OpenCage API",
   "timestamp": {
-    "created_http": "Tue, 12 Nov 2024 04:47:37 GMT",
-    "created_unix": 1731386857
+    "created_http": "Tue, 12 Nov 2024 04:51:02 GMT",
+    "created_unix": 1731387062
   },
   "total_results": 10
 }
