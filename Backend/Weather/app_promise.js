@@ -28,5 +28,5 @@ geocode.fetchCoordinates(encodedAddr)
             console.log(JSON.stringify(result, undefined, 2))
         })
         .catch((error)=>{
-            console.log(`Error: ${error}`)  
+            console.log(error)  
         })
