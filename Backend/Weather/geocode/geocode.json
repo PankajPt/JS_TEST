@@ -8,1193 +8,201 @@
   ],
   "rate": {
     "limit": 2500,
-    "remaining": 2492,
+    "remaining": 2491,
     "reset": 1731456000
   },
   "results": [
     {
       "annotations": {
         "DMS": {
-          "lat": "18° 59' 27.94956'' N",
-          "lng": "73° 7' 14.10456'' E"
+          "lat": "36° 38' 18.21120'' N",
+          "lng": "127° 41' 46.02768'' E"
         },
-        "MGRS": "43QCB0215300898",
-        "Maidenhead": "MK68nx47lu",
+        "MGRS": "52SCF8343555550",
+        "Maidenhead": "PM36up33mf",
         "Mercator": {
-          "x": 8139746.24,
-          "y": 2139989.757
+          "x": 14215066.921,
+          "y": 4363321.785
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?way=113688843#map=17/18.99110/73.12058",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.99110/73.12058&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=18.99110&mlon=73.12058#map=17/18.99110/73.12058"
+          "edit_url": "https://www.openstreetmap.org/edit?relation=307756#map=17/36.63839/127.69612",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/36.63839/127.69612&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=36.63839&mlon=127.69612#map=17/36.63839/127.69612"
         },
         "UN_M49": {
           "regions": {
             "ASIA": "142",
-            "IN": "356",
-            "SOUTHERN_ASIA": "034",
+            "EASTERN_ASIA": "030",
+            "KR": "410",
             "WORLD": "001"
           },
           "statistical_groupings": [
             "LEDC"
           ]
         },
-        "callingcode": 91,
+        "callingcode": 82,
         "currency": {
-          "alternate_symbols": [
-            "Rs",
-            "৳",
-            "૱",
-            "௹",
-            "रु",
-            "₨"
-          ],
+          "alternate_symbols": [],
           "decimal_mark": ".",
-          "html_entity": "&#x20b9;",
-          "iso_code": "INR",
-          "iso_numeric": "356",
-          "name": "Indian Rupee",
-          "smallest_denomination": 50,
-          "subunit": "Paisa",
-          "subunit_to_unit": 100,
-          "symbol": "₹",
+          "html_entity": "&#x20A9;",
+          "iso_code": "KRW",
+          "iso_numeric": "410",
+          "name": "South Korean Won",
+          "smallest_denomination": 1,
+          "subunit_to_unit": 1,
+          "symbol": "₩",
           "symbol_first": 1,
           "thousands_separator": ","
         },
-        "flag": "🇮🇳",
-        "geohash": "te7upchz1j5dgs3v8xev",
-        "qibla": 280.22,
+        "flag": "🇰🇷",
+        "geohash": "wydb3vc6p5r3qjjxyg94",
+        "qibla": 286.32,
         "roadinfo": {
-          "drive_on": "left",
-          "road": "Panvel Station Road",
+          "drive_on": "right",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731374040,
-            "astronomical": 1731455940,
-            "civil": 1731372660,
-            "nautical": 1731371100
+            "apparent": 1731449040,
+            "astronomical": 1731443760,
+            "civil": 1731447420,
+            "nautical": 1731445560
           },
           "set": {
-            "apparent": 1731414540,
-            "astronomical": 1731419040,
-            "civil": 1731415920,
-            "nautical": 1731417480
+            "apparent": 1731399720,
+            "astronomical": 1731405000,
+            "civil": 1731401340,
+            "nautical": 1731403200
           }
         },
         "timezone": {
-          "name": "Asia/Kolkata",
+          "name": "Asia/Seoul",
           "now_in_dst": 0,
-          "offset_sec": 19800,
-          "offset_string": "+0530",
-          "short_name": "IST"
+          "offset_sec": 32400,
+          "offset_string": "+0900",
+          "short_name": "KST"
         },
         "what3words": {
-          "words": "amber.harnessed.plays"
+          "words": "blurts.professions.entity"
         },
-        "wikidata": "Q7131981"
+        "wikidata": "Q884"
       },
       "bounds": {
         "northeast": {
-          "lat": 18.9922882,
-          "lng": 73.1218689
+          "lat": 38.61772,
+          "lng": 132.1467806
         },
         "southwest": {
-          "lat": 18.9895902,
-          "lng": 73.1193411
+          "lat": 32.9104556,
+          "lng": 124.3727348
         }
       },
       "components": {
-        "ISO_3166-1_alpha-2": "IN",
-        "ISO_3166-1_alpha-3": "IND",
-        "ISO_3166-2": [
-          "IN-MH"
-        ],
-        "_category": "transportation",
-        "_normalized_city": "Panvel",
-        "_type": "railway",
-        "city": "Panvel",
-        "continent": "Asia",
-        "country": "India",
-        "country_code": "in",
-        "county": "Panvel Taluka",
-        "postcode": "410206",
-        "railway": "Panvel (Suburban)",
-        "road": "Panvel Station Road",
-        "state": "Maharashtra",
-        "state_code": "MH",
-        "state_district": "Raigad",
-        "suburb": "New Panvel"
-      },
-      "confidence": 9,
-      "formatted": "Panvel (Suburban), Panvel Station Road, New Panvel, Panvel - 410206, Maharashtra, India",
-      "geometry": {
-        "lat": 18.9910971,
-        "lng": 73.1205846
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "18° 59' 21.92604'' N",
-          "lng": "73° 7' 21.70200'' E"
-        },
-        "MGRS": "43QCB0237300711",
-        "Maidenhead": "MK68nx47rl",
-        "Mercator": {
-          "x": 8139981.173,
-          "y": 2139793.956
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=2630075009#map=17/18.98942/73.12269",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.98942/73.12269&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=18.98942&mlon=73.12269#map=17/18.98942/73.12269"
-        },
-        "UN_M49": {
-          "regions": {
-            "ASIA": "142",
-            "IN": "356",
-            "SOUTHERN_ASIA": "034",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 91,
-        "currency": {
-          "alternate_symbols": [
-            "Rs",
-            "৳",
-            "૱",
-            "௹",
-            "रु",
-            "₨"
-          ],
-          "decimal_mark": ".",
-          "html_entity": "&#x20b9;",
-          "iso_code": "INR",
-          "iso_numeric": "356",
-          "name": "Indian Rupee",
-          "smallest_denomination": 50,
-          "subunit": "Paisa",
-          "subunit_to_unit": 100,
-          "symbol": "₹",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇮🇳",
-        "geohash": "te7upbym6m1mbe9f744n",
-        "qibla": 280.22,
-        "roadinfo": {
-          "drive_on": "left",
-          "road": "Panvel Station FOB",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731374040,
-            "astronomical": 1731455940,
-            "civil": 1731372660,
-            "nautical": 1731371100
-          },
-          "set": {
-            "apparent": 1731414540,
-            "astronomical": 1731419040,
-            "civil": 1731415920,
-            "nautical": 1731417480
-          }
-        },
-        "timezone": {
-          "name": "Asia/Kolkata",
-          "now_in_dst": 0,
-          "offset_sec": 19800,
-          "offset_string": "+0530",
-          "short_name": "IST"
-        },
-        "what3words": {
-          "words": "places.boggles.remarried"
-        },
-        "wikidata": "Q7131981"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 18.9944239,
-          "lng": 73.127695
-        },
-        "southwest": {
-          "lat": 18.9844239,
-          "lng": 73.117695
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "IN",
-        "ISO_3166-1_alpha-3": "IND",
-        "ISO_3166-2": [
-          "IN-MH"
-        ],
-        "_category": "transportation",
-        "_normalized_city": "Panvel",
-        "_type": "railway",
-        "city": "Panvel",
-        "continent": "Asia",
-        "country": "India",
-        "country_code": "in",
-        "county": "Panvel Taluka",
-        "postcode": "497586",
-        "railway": "Panvel",
-        "road": "Panvel Station FOB",
-        "state": "Maharashtra",
-        "state_code": "MH",
-        "state_district": "Raigad",
-        "suburb": "New Panvel"
-      },
-      "confidence": 8,
-      "formatted": "Panvel, Panvel Station FOB, New Panvel, Panvel - 497586, Maharashtra, India",
-      "geometry": {
-        "lat": 18.9894239,
-        "lng": 73.122695
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "18° 59' 22.28964'' N",
-          "lng": "73° 7' 19.89660'' E"
-        },
-        "MGRS": "43QCB0232000722",
-        "Maidenhead": "MK68nx47pl",
-        "Mercator": {
-          "x": 8139925.346,
-          "y": 2139805.775
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=13182526#map=17/18.98952/73.12219",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.98952/73.12219&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=18.98952&mlon=73.12219#map=17/18.98952/73.12219"
-        },
-        "UN_M49": {
-          "regions": {
-            "ASIA": "142",
-            "IN": "356",
-            "SOUTHERN_ASIA": "034",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 91,
-        "currency": {
-          "alternate_symbols": [
-            "Rs",
-            "৳",
-            "૱",
-            "௹",
-            "रु",
-            "₨"
-          ],
-          "decimal_mark": ".",
-          "html_entity": "&#x20b9;",
-          "iso_code": "INR",
-          "iso_numeric": "356",
-          "name": "Indian Rupee",
-          "smallest_denomination": 50,
-          "subunit": "Paisa",
-          "subunit_to_unit": 100,
-          "symbol": "₹",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇮🇳",
-        "geohash": "te7upbvyn852671wsb64",
-        "qibla": 280.22,
-        "roadinfo": {
-          "drive_on": "left",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731374040,
-            "astronomical": 1731455940,
-            "civil": 1731372660,
-            "nautical": 1731371100
-          },
-          "set": {
-            "apparent": 1731414540,
-            "astronomical": 1731419040,
-            "civil": 1731415920,
-            "nautical": 1731417480
-          }
-        },
-        "timezone": {
-          "name": "Asia/Kolkata",
-          "now_in_dst": 0,
-          "offset_sec": 19800,
-          "offset_string": "+0530",
-          "short_name": "IST"
-        },
-        "what3words": {
-          "words": "fish.twinkling.drivers"
-        },
-        "wikidata": "Q297511"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 19.1146172,
-          "lng": 73.1489038
-        },
-        "southwest": {
-          "lat": 18.968449,
-          "lng": 73.0436749
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "IN",
-        "ISO_3166-1_alpha-3": "IND",
-        "ISO_3166-2": [
-          "IN-MH"
-        ],
+        "ISO_3166-1_alpha-2": "KR",
+        "ISO_3166-1_alpha-3": "KOR",
         "_category": "place",
-        "_normalized_city": "Panvel",
-        "_type": "city",
-        "city": "Panvel",
+        "_type": "country",
         "continent": "Asia",
-        "country": "India",
-        "country_code": "in",
-        "county": "Panvel Taluka",
-        "state": "Maharashtra",
-        "state_code": "MH",
-        "state_district": "Raigad"
+        "country": "South Korea",
+        "country_code": "kr"
       },
-      "confidence": 6,
-      "formatted": "Panvel, Panvel Taluka, India",
+      "confidence": 1,
+      "formatted": "South Korea",
       "geometry": {
-        "lat": 18.9895249,
-        "lng": 73.1221935
+        "lat": 36.638392,
+        "lng": 127.6961188
       }
     },
     {
       "annotations": {
         "DMS": {
-          "lat": "29° 27' 29.01096'' S",
-          "lng": "51° 58' 19.22304'' W"
+          "lat": "8° 22' 0.01200'' S",
+          "lng": "124° 5' 60.00000'' E"
         },
-        "MGRS": "22JDN0574440870",
-        "Maidenhead": "GG40an30ib",
+        "MGRS": "51LXL2111574996",
+        "Maidenhead": "PI21bp21ax",
         "Mercator": {
-          "x": -5785497.283,
-          "y": -3413067.343
+          "x": 13814748.807,
+          "y": -928488.108
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?way=1131048261#map=17/-29.45806/-51.97201",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-29.45806/-51.97201&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-29.45806&mlon=-51.97201#map=17/-29.45806/-51.97201"
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/-8.36667/124.10000&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=-8.36667&mlon=124.10000#map=17/-8.36667/124.10000"
         },
         "UN_M49": {
           "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
+            "ASIA": "142",
+            "ID": "360",
+            "SOUTHEAST_ASIA": "035",
             "WORLD": "001"
           },
           "statistical_groupings": [
             "LEDC"
           ]
         },
-        "callingcode": 55,
+        "callingcode": 62,
         "currency": {
+          "alternate_symbols": [],
           "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
+          "html_entity": "",
+          "iso_code": "IDR",
+          "iso_numeric": "360",
+          "name": "Indonesian Rupiah",
+          "smallest_denomination": 5000,
+          "subunit": "Sen",
           "subunit_to_unit": 100,
-          "symbol": "R$",
+          "symbol": "Rp",
           "symbol_first": 1,
           "thousands_separator": "."
         },
-        "flag": "🇧🇷",
-        "geohash": "6fg03m74k7z78w8s7mp8",
-        "qibla": 71.93,
+        "flag": "🇮🇩",
+        "geohash": "qy80ruyueedvmm198bvw",
+        "qibla": 292.03,
         "roadinfo": {
-          "drive_on": "right",
-          "road": "Avenida Benjamin Constant",
+          "drive_on": "left",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731400020,
-            "astronomical": 1731394740,
-            "civil": 1731398460,
-            "nautical": 1731396660
+            "apparent": 1731446040,
+            "astronomical": 1731441660,
+            "civil": 1731444720,
+            "nautical": 1731443220
           },
           "set": {
-            "apparent": 1731448680,
-            "astronomical": 1731453960,
-            "civil": 1731450180,
-            "nautical": 1731452040
+            "apparent": 1731404460,
+            "astronomical": 1731408900,
+            "civil": 1731405780,
+            "nautical": 1731407340
           }
         },
         "timezone": {
-          "name": "America/Sao_Paulo",
+          "name": "Asia/Makassar",
           "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
+          "offset_sec": 28800,
+          "offset_string": "+0800",
+          "short_name": "WITA"
         },
         "what3words": {
-          "words": "torches.judges.spokes"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -29.4579597,
-          "lng": -51.9718779
-        },
-        "southwest": {
-          "lat": -29.4581574,
-          "lng": -51.9721348
+          "words": "joyriding.temperature.hiking"
         }
       },
       "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-RS"
-        ],
-        "_category": "health",
-        "_normalized_city": "Lajeado",
-        "_type": "pharmacy",
-        "city_district": "Lajeado",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "municipality": "Região Geográfica Imediata de Lajeado",
-        "pharmacy": "Panvel",
-        "postcode": "95900-702",
-        "region": "South Region",
-        "road": "Avenida Benjamin Constant",
-        "state": "Rio Grande do Sul",
-        "state_code": "RS",
-        "state_district": "Região Geográfica Intermediária de Santa Cruz do Sul - Lajeado",
-        "suburb": "Florestal",
-        "town": "Lajeado"
+        "ISO_3166-1_alpha-2": "ID",
+        "ISO_3166-1_alpha-3": "IDN",
+        "_category": "natural/water",
+        "_normalized_city": "Kura",
+        "_type": "island",
+        "continent": "Asia",
+        "country": "Indonesia",
+        "country_code": "id",
+        "island": "Kura"
       },
       "confidence": 9,
-      "formatted": "Panvel, Avenida Benjamin Constant, Florestal, Lajeado - RS, 95900-702, Brazil",
+      "formatted": "Kura, Indonesia",
       "geometry": {
-        "lat": -29.4580586,
-        "lng": -51.9720064
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "25° 25' 20.45028'' S",
-          "lng": "49° 15' 10.26072'' W"
-        },
-        "MGRS": "22JFS7571487134",
-        "Maidenhead": "GG54in98pp",
-        "Mercator": {
-          "x": -5482802.204,
-          "y": -2909373.19
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=6173894584#map=17/-25.42235/-49.25285",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-25.42235/-49.25285&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-25.42235&mlon=-49.25285#map=17/-25.42235/-49.25285"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 55,
-        "currency": {
-          "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
-          "subunit_to_unit": 100,
-          "symbol": "R$",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇧🇷",
-        "geohash": "6gkzrhp0j6vp3d95g6en",
-        "qibla": 70.14,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Rua Itupava",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731399780,
-            "astronomical": 1731394740,
-            "civil": 1731398340,
-            "nautical": 1731396540
-          },
-          "set": {
-            "apparent": 1731447600,
-            "astronomical": 1731452640,
-            "civil": 1731449040,
-            "nautical": 1731450840
-          }
-        },
-        "timezone": {
-          "name": "America/Sao_Paulo",
-          "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
-        },
-        "what3words": {
-          "words": "rips.action.topping"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -25.4222973,
-          "lng": -49.2528002
-        },
-        "southwest": {
-          "lat": -25.4223973,
-          "lng": -49.2529002
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-PR"
-        ],
-        "_category": "health",
-        "_normalized_city": "Curitiba",
-        "_type": "pharmacy",
-        "city": "Curitiba",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "county": "Região Metropolitana de Curitiba",
-        "house_number": "753",
-        "municipality": "Região Geográfica Imediata de Curitiba",
-        "pharmacy": "Panvel",
-        "postcode": "80045-175",
-        "region": "South Region",
-        "road": "Rua Itupava",
-        "state": "Paraná",
-        "state_code": "PR",
-        "state_district": "Região Geográfica Intermediária de Curitiba",
-        "suburb": "Juvevê"
-      },
-      "confidence": 9,
-      "formatted": "Panvel, Rua Itupava 753, Juvevê, Curitiba - PR, 80045-175, Brazil",
-      "geometry": {
-        "lat": -25.4223473,
-        "lng": -49.2528502
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "29° 10' 43.38876'' S",
-          "lng": "51° 30' 40.19328'' W"
-        },
-        "MGRS": "22JDN5029872105",
-        "Maidenhead": "GG40ft87pc",
-        "Mercator": {
-          "x": -5734196.636,
-          "y": -3377585.018
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=10684109669#map=17/-29.17872/-51.51116",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-29.17872/-51.51116&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-29.17872&mlon=-51.51116#map=17/-29.17872/-51.51116"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 55,
-        "currency": {
-          "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
-          "subunit_to_unit": 100,
-          "symbol": "R$",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇧🇷",
-        "geohash": "6fg65b4twue8sr2h8cb6",
-        "qibla": 71.67,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Rua Belo Horizonte",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731399960,
-            "astronomical": 1731394680,
-            "civil": 1731398400,
-            "nautical": 1731396600
-          },
-          "set": {
-            "apparent": 1731448500,
-            "astronomical": 1731453840,
-            "civil": 1731450060,
-            "nautical": 1731451920
-          }
-        },
-        "timezone": {
-          "name": "America/Sao_Paulo",
-          "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
-        },
-        "what3words": {
-          "words": "yard.locals.sweetly"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -29.1786691,
-          "lng": -51.5111148
-        },
-        "southwest": {
-          "lat": -29.1787691,
-          "lng": -51.5112148
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-RS"
-        ],
-        "_category": "health",
-        "_normalized_city": "Bento Gonçalves",
-        "_type": "pharmacy",
-        "city": "Bento Gonçalves",
-        "city_district": "Bento Gonçalves",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "municipality": "Região Geográfica Imediata de Bento Gonçalves",
-        "pharmacy": "Panvel",
-        "postcode": "95700-598",
-        "region": "South Region",
-        "road": "Rua Belo Horizonte",
-        "state": "Rio Grande do Sul",
-        "state_code": "RS",
-        "state_district": "Região Geográfica Intermediária de Caxias do Sul",
-        "suburb": "Botafogo"
-      },
-      "confidence": 9,
-      "formatted": "Panvel, Rua Belo Horizonte, Botafogo, Bento Gonçalves - RS, 95700-598, Brazil",
-      "geometry": {
-        "lat": -29.1787191,
-        "lng": -51.5111648
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "28° 15' 42.36048'' S",
-          "lng": "52° 24' 22.04784'' W"
-        },
-        "MGRS": "22JCP6207472998",
-        "Maidenhead": "GG31tr17ge",
-        "Mercator": {
-          "x": -5833823.083,
-          "y": -3261789.364
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=11287113079#map=17/-28.26177/-52.40612",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-28.26177/-52.40612&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-28.26177&mlon=-52.40612#map=17/-28.26177/-52.40612"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 55,
-        "currency": {
-          "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
-          "subunit_to_unit": 100,
-          "symbol": "R$",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇧🇷",
-        "geohash": "6ffxprp52bc6k2kc8yrw",
-        "qibla": 71.87,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Rua Morom",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731400260,
-            "astronomical": 1731395040,
-            "civil": 1731398760,
-            "nautical": 1731396900
-          },
-          "set": {
-            "apparent": 1731448620,
-            "astronomical": 1731453840,
-            "civil": 1731450180,
-            "nautical": 1731451980
-          }
-        },
-        "timezone": {
-          "name": "America/Sao_Paulo",
-          "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
-        },
-        "what3words": {
-          "words": "edits.pyramid.deduct"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -28.2617168,
-          "lng": -52.4060744
-        },
-        "southwest": {
-          "lat": -28.2618168,
-          "lng": -52.4061744
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-RS"
-        ],
-        "_category": "health",
-        "_normalized_city": "Passo Fundo",
-        "_type": "pharmacy",
-        "city": "Passo Fundo",
-        "city_district": "Passo Fundo",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "municipality": "Região Geográfica Imediata de Passo Fundo",
-        "pharmacy": "Panvel",
-        "postcode": "99070-060",
-        "region": "South Region",
-        "road": "Rua Morom",
-        "state": "Rio Grande do Sul",
-        "state_code": "RS",
-        "state_district": "Região Geográfica Intermediária de Passo Fundo",
-        "suburb": "Centro"
-      },
-      "confidence": 9,
-      "formatted": "Panvel, Rua Morom, Centro, Passo Fundo - RS, 99070-060, Brazil",
-      "geometry": {
-        "lat": -28.2617668,
-        "lng": -52.4061244
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "28° 16' 4.90584'' S",
-          "lng": "52° 23' 32.98452'' W"
-        },
-        "MGRS": "22JCP6341972319",
-        "Maidenhead": "GG31tr25vq",
-        "Mercator": {
-          "x": -5832305.943,
-          "y": -3262576.772
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=5215152621#map=17/-28.26803/-52.39250",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-28.26803/-52.39250&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-28.26803&mlon=-52.39250#map=17/-28.26803/-52.39250"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 55,
-        "currency": {
-          "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
-          "subunit_to_unit": 100,
-          "symbol": "R$",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇧🇷",
-        "geohash": "6ffxpvbyy37smuehu9fr",
-        "qibla": 71.87,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Avenida Presidente Vargas",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731400260,
-            "astronomical": 1731395040,
-            "civil": 1731398760,
-            "nautical": 1731396900
-          },
-          "set": {
-            "apparent": 1731448620,
-            "astronomical": 1731453840,
-            "civil": 1731450180,
-            "nautical": 1731451980
-          }
-        },
-        "timezone": {
-          "name": "America/Sao_Paulo",
-          "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
-        },
-        "what3words": {
-          "words": "shocked.howler.sank"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -28.2679794,
-          "lng": -52.3924457
-        },
-        "southwest": {
-          "lat": -28.2680794,
-          "lng": -52.3925457
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-RS"
-        ],
-        "_category": "health",
-        "_normalized_city": "Passo Fundo",
-        "_type": "pharmacy",
-        "city": "Passo Fundo",
-        "city_district": "Passo Fundo",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "municipality": "Região Geográfica Imediata de Passo Fundo",
-        "pharmacy": "Panvel",
-        "postcode": "99070-210",
-        "region": "South Region",
-        "road": "Avenida Presidente Vargas",
-        "state": "Rio Grande do Sul",
-        "state_code": "RS",
-        "state_district": "Região Geográfica Intermediária de Passo Fundo",
-        "suburb": "Lucas Araújo"
-      },
-      "confidence": 9,
-      "formatted": "Panvel, Avenida Presidente Vargas, Lucas Araújo, Passo Fundo - RS, 99070-210, Brazil",
-      "geometry": {
-        "lat": -28.2680294,
-        "lng": -52.3924957
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "29° 11' 27.99816'' S",
-          "lng": "54° 52' 5.69280'' W"
-        },
-        "MGRS": "21JYH0727468959",
-        "Maidenhead": "GG20nt54td",
-        "Mercator": {
-          "x": -6107905.428,
-          "y": -3379156.938
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=7223714301#map=17/-29.19111/-54.86825",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-29.19111/-54.86825&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-29.19111&mlon=-54.86825#map=17/-29.19111/-54.86825"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 55,
-        "currency": {
-          "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
-          "subunit_to_unit": 100,
-          "symbol": "R$",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇧🇷",
-        "geohash": "6fbczmyjmnsfwcwrtfdg",
-        "qibla": 73.11,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Avenida Getúlio Vargas",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731400740,
-            "astronomical": 1731395460,
-            "civil": 1731399240,
-            "nautical": 1731397380
-          },
-          "set": {
-            "apparent": 1731449340,
-            "astronomical": 1731454620,
-            "civil": 1731450840,
-            "nautical": 1731452700
-          }
-        },
-        "timezone": {
-          "name": "America/Sao_Paulo",
-          "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
-        },
-        "what3words": {
-          "words": "helper.takeover.urgent"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -29.1910606,
-          "lng": -54.868198
-        },
-        "southwest": {
-          "lat": -29.1911606,
-          "lng": -54.868298
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-RS"
-        ],
-        "_category": "health",
-        "_normalized_city": "Santiago",
-        "_type": "pharmacy",
-        "city_district": "Santiago",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "house_number": "1851",
-        "municipality": "Região Geográfica Imediata de Santiago",
-        "pharmacy": "Panvel",
-        "postcode": "97700-000",
-        "region": "South Region",
-        "road": "Avenida Getúlio Vargas",
-        "state": "Rio Grande do Sul",
-        "state_code": "RS",
-        "state_district": "Região Geográfica Intermediária de Santa Maria",
-        "suburb": "Centro",
-        "town": "Santiago"
-      },
-      "confidence": 9,
-      "formatted": "Panvel, Avenida Getúlio Vargas 1851, Centro, Santiago - RS, 97700-000, Brazil",
-      "geometry": {
-        "lat": -29.1911106,
-        "lng": -54.868248
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "28° 15' 35.41860'' S",
-          "lng": "52° 24' 16.07256'' W"
-        },
-        "MGRS": "22JCP6223473213",
-        "Maidenhead": "GG31tr17lp",
-        "Mercator": {
-          "x": -5833638.309,
-          "y": -3261546.918
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?way=679878507#map=17/-28.25984/-52.40446",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/-28.25984/-52.40446&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=-28.25984&mlon=-52.40446#map=17/-28.25984/-52.40446"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "BR": "076",
-            "LATIN_AMERICA": "419",
-            "SOUTH_AMERICA": "005",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 55,
-        "currency": {
-          "decimal_mark": ",",
-          "html_entity": "R$",
-          "iso_code": "BRL",
-          "iso_numeric": "986",
-          "name": "Brazilian Real",
-          "smallest_denomination": 5,
-          "subunit": "Centavo",
-          "subunit_to_unit": 100,
-          "symbol": "R$",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇧🇷",
-        "geohash": "6ffxpx2nx2r13fnff5qf",
-        "qibla": 71.87,
-        "roadinfo": {
-          "drive_on": "right",
-          "road": "Rua Fagundes dos Reis",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731400260,
-            "astronomical": 1731395040,
-            "civil": 1731398760,
-            "nautical": 1731396900
-          },
-          "set": {
-            "apparent": 1731448620,
-            "astronomical": 1731453840,
-            "civil": 1731450180,
-            "nautical": 1731451980
-          }
-        },
-        "timezone": {
-          "name": "America/Sao_Paulo",
-          "now_in_dst": 0,
-          "offset_sec": -10800,
-          "offset_string": "-0300",
-          "short_name": "BRT"
-        },
-        "what3words": {
-          "words": "shade.mankind.scary"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": -28.2597329,
-          "lng": -52.4043534
-        },
-        "southwest": {
-          "lat": -28.259944,
-          "lng": -52.4045757
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "BR",
-        "ISO_3166-1_alpha-3": "BRA",
-        "ISO_3166-2": [
-          "BR-RS"
-        ],
-        "_category": "health",
-        "_normalized_city": "Passo Fundo",
-        "_type": "pharmacy",
-        "city": "Passo Fundo",
-        "city_district": "Passo Fundo",
-        "continent": "South America",
-        "country": "Brazil",
-        "country_code": "br",
-        "municipality": "Região Geográfica Imediata de Passo Fundo",
-        "pharmacy": "Panvel",
-        "postcode": "99010-130",
-        "region": "South Region",
-        "road": "Rua Fagundes dos Reis",
-        "state": "Rio Grande do Sul",
-        "state_code": "RS",
-        "state_district": "Região Geográfica Intermediária de Passo Fundo",
-        "suburb": "Centro"
-      },
-      "confidence": 9,
-      "formatted": "Panvel, Rua Fagundes dos Reis, Centro, Passo Fundo - RS, 99010-130, Brazil",
-      "geometry": {
-        "lat": -28.2598385,
-        "lng": -52.4044646
+        "lat": -8.36667,
+        "lng": 124.1
       }
     }
   ],
@@ -1208,8 +216,8 @@
   },
   "thanks": "For using an OpenCage API",
   "timestamp": {
-    "created_http": "Tue, 12 Nov 2024 04:51:02 GMT",
-    "created_unix": 1731387062
+    "created_http": "Tue, 12 Nov 2024 04:57:31 GMT",
+    "created_unix": 1731387451
   },
-  "total_results": 10
+  "total_results": 2
 }

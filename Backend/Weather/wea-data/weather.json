@@ -43,4 +43,48 @@
   "id": 1268308,
   "name": "Kālundri",
   "cod": 200
+}{
+  "coord": {
+    "lon": 127.6961,
+    "lat": 36.6384
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 17.16,
+    "feels_like": 15.71,
+    "temp_min": 17.16,
+    "temp_max": 17.16,
+    "pressure": 1018,
+    "humidity": 30,
+    "sea_level": 1018,
+    "grnd_level": 979
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.57,
+    "deg": 280
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1731387451,
+  "sys": {
+    "type": 1,
+    "id": 8131,
+    "country": "KR",
+    "sunrise": 1731362636,
+    "sunset": 1731399776
+  },
+  "timezone": 32400,
+  "id": 1845604,
+  "name": "Cheongju-si",
+  "cod": 200
 }
