@@ -43,7 +43,7 @@ const fetchCoordinates = (addr) => {
             }
 
         ).on('error',(err)=>{
-            reject(`Error: ${err.message}`)
+            reject(`Error: Network Error, Unable to connect ${err.message}`)
         })
     })
 }
