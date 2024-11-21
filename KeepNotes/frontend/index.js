@@ -54,7 +54,7 @@ function addNote() {
             body: bodyTextarea.value
         }
 
-        utils.postNote(userNoteData, config.backend_uri)
+        utils.postNote(userNoteData, config.git_uri)
             .then( (data) => {
                 alert(`Note Submitted...\nTitle: ${data.title}\nNote: ${data.body}`)
                 submitButton.disabled = true
