@@ -8,805 +8,26 @@
   ],
   "rate": {
     "limit": 2500,
-<<<<<<< HEAD
-    "remaining": 2481,
-    "reset": 1731456000
-=======
-    "remaining": 2498,
-    "reset": 1731542400
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
+    "remaining": 2497,
+    "reset": 1733788800
   },
   "results": [
     {
       "annotations": {
         "DMS": {
-<<<<<<< HEAD
-          "lat": "55° 45' 1.94832'' N",
-          "lng": "37° 37' 2.92152'' E"
+          "lat": "18° 31' 16.94568'' N",
+          "lng": "73° 51' 16.22556'' E"
         },
-        "MGRS": "37UDB1322379181",
-        "Maidenhead": "KO85ts40cd",
+        "MGRS": "43QCA7909048253",
+        "Maidenhead": "MK68wm25md",
         "Mercator": {
-          "x": 4187558.518,
-          "y": 7473567.253
+          "x": 8221446.123,
+          "y": 2085099.341
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=2555133#map=16/55.75054/37.61748",
-          "note_url": "https://www.openstreetmap.org/note/new#map=16/55.75054/37.61748&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=55.75054&mlon=37.61748#map=16/55.75054/37.61748"
-=======
-          "lat": "18° 52' 50.88000'' N",
-          "lng": "72° 56' 18.96000'' E"
-        },
-        "MGRS": "43QBA8284688902",
-        "Maidenhead": "MK68lv21pj",
-        "Mercator": {
-          "x": 8119487.811,
-          "y": 2127086.848
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=245652482#map=17/18.88080/72.93860",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.88080/72.93860&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=18.88080&mlon=72.93860#map=17/18.88080/72.93860"
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
-        },
-        "UN_M49": {
-          "regions": {
-            "EASTERN_EUROPE": "151",
-            "EUROPE": "150",
-            "RU": "643",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 7,
-        "currency": {
-          "alternate_symbols": [
-            "руб.",
-            "р."
-          ],
-          "decimal_mark": ",",
-          "format": "%n %u",
-          "html_entity": "&#x20BD;",
-          "iso_code": "RUB",
-          "iso_numeric": "643",
-          "name": "Russian Ruble",
-          "smallest_denomination": 1,
-          "subunit": "Kopeck",
-          "subunit_to_unit": 100,
-          "symbol": "₽",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-<<<<<<< HEAD
-        "flag": "🇷🇺",
-        "geohash": "ucfv0j04qy0u0qefvj7d",
-        "qibla": 176.36,
-        "roadinfo": {
-          "drive_on": "right",
-=======
-        "flag": "🇮🇳",
-        "geohash": "te7g7v0k8s4p4cbhjvfs",
-        "qibla": 280.39,
-        "roadinfo": {
-          "drive_on": "left",
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-<<<<<<< HEAD
-            "apparent": 1731387600,
-            "astronomical": 1731379800,
-            "civil": 1731385140,
-            "nautical": 1731382440
-          },
-          "set": {
-            "apparent": 1731418020,
-            "astronomical": 1731425760,
-            "civil": 1731420480,
-            "nautical": 1731423180
-=======
-            "apparent": 1731460500,
-            "astronomical": 1731456000,
-            "civil": 1731459120,
-            "nautical": 1731457560
-          },
-          "set": {
-            "apparent": 1731501000,
-            "astronomical": 1731505500,
-            "civil": 1731502380,
-            "nautical": 1731503940
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
-          }
-        },
-        "timezone": {
-          "name": "Europe/Moscow",
-          "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "MSK"
-        },
-        "what3words": {
-<<<<<<< HEAD
-          "words": "treating.custom.openings"
-        },
-        "wikidata": "Q649"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 55.9577717,
-          "lng": 37.9674277
-        },
-        "southwest": {
-          "lat": 55.516684,
-          "lng": 37.290502
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "RU",
-        "ISO_3166-1_alpha-3": "RUS",
-        "ISO_3166-2": [
-          "RU-MOW"
-        ],
-        "_category": "place",
-        "_normalized_city": "Moscow",
-        "_type": "city",
-        "city": "Moscow",
-        "continent": "Europe",
-        "country": "Russia",
-        "country_code": "ru",
-        "region": "Central Federal District",
-        "state": "Moscow"
-      },
-      "confidence": 2,
-      "formatted": "Moscow, Russia",
-      "geometry": {
-        "lat": 55.7505412,
-        "lng": 37.6174782
-=======
-          "words": "relished.stocks.bravery"
-        },
-        "wikidata": "Q1113891"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 18.9208,
-          "lng": 72.9786
-        },
-        "southwest": {
-          "lat": 18.8408,
-          "lng": 72.8986
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "IN",
-        "ISO_3166-1_alpha-3": "IND",
-        "ISO_3166-2": [
-          "IN-MH"
-        ],
-        "_category": "place",
-        "_normalized_city": "Uran",
-        "_type": "city",
-        "continent": "Asia",
-        "country": "India",
-        "country_code": "in",
-        "county": "Uran Taluka",
-        "postcode": "400702",
-        "state": "Maharashtra",
-        "state_code": "MH",
-        "state_district": "Raigad",
-        "town": "Uran"
-      },
-      "confidence": 7,
-      "formatted": "Raigad, Uran - 400702, Maharashtra, India",
-      "geometry": {
-        "lat": 18.8808,
-        "lng": 72.9386
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-<<<<<<< HEAD
-          "lat": "55° 37' 32.08080'' N",
-          "lng": "37° 36' 23.00976'' E"
-        },
-        "MGRS": "37UDB1224865289",
-        "Maidenhead": "KO85tp20sd",
-        "Mercator": {
-          "x": 4186324.363,
-          "y": 7448942.147
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=102269#map=16/55.62558/37.60639",
-          "note_url": "https://www.openstreetmap.org/note/new#map=16/55.62558/37.60639&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=55.62558&mlon=37.60639#map=16/55.62558/37.60639"
-        },
-        "UN_M49": {
-          "regions": {
-            "EASTERN_EUROPE": "151",
-            "EUROPE": "150",
-            "RU": "643",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 7,
-        "currency": {
-          "alternate_symbols": [
-            "руб.",
-            "р."
-          ],
-          "decimal_mark": ",",
-          "format": "%n %u",
-          "html_entity": "&#x20BD;",
-          "iso_code": "RUB",
-          "iso_numeric": "643",
-          "name": "Russian Ruble",
-          "smallest_denomination": 1,
-          "subunit": "Kopeck",
-          "subunit_to_unit": 100,
-          "symbol": "₽",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇷🇺",
-        "geohash": "ucfsry24krmcxvc67n3g",
-        "qibla": 176.33,
-=======
-          "lat": "38° 31' 0.11532'' N",
-          "lng": "41° 41' 50.32392'' E"
-        },
-        "MGRS": "37SGC3516566594",
-        "Maidenhead": "LM08um34qa",
-        "Mercator": {
-          "x": 4641723.562,
-          "y": 4626064.653
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "TR"
-          },
-          "NUTS1": {
-            "code": "TRB"
-          },
-          "NUTS2": {
-            "code": "TRB2"
-          },
-          "NUTS3": {
-            "code": "TRB23"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=2400325373#map=17/38.51670/41.69731",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/38.51670/41.69731&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=38.51670&mlon=41.69731#map=17/38.51670/41.69731"
-        },
-        "UN_M49": {
-          "regions": {
-            "ASIA": "142",
-            "TR": "792",
-            "WESTERN_ASIA": "145",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 90,
-        "currency": {
-          "alternate_symbols": [
-            "TL"
-          ],
-          "decimal_mark": ",",
-          "html_entity": "&#8378;",
-          "iso_code": "TRY",
-          "iso_numeric": "949",
-          "name": "Turkish Lira",
-          "smallest_denomination": 1,
-          "subunit": "kuruş",
-          "subunit_to_unit": 100,
-          "symbol": "₺",
-          "symbol_first": 1,
-          "thousands_separator": "."
-        },
-        "flag": "🇹🇷",
-        "geohash": "syvehgg01c13rd01bx4d",
-        "qibla": 185.91,
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-<<<<<<< HEAD
-            "apparent": 1731387540,
-            "astronomical": 1731379800,
-            "civil": 1731385080,
-            "nautical": 1731382380
-          },
-          "set": {
-            "apparent": 1731418020,
-            "astronomical": 1731425760,
-            "civil": 1731420540,
-            "nautical": 1731423180
-          }
-        },
-        "timezone": {
-          "name": "Europe/Moscow",
-          "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "MSK"
-        },
-        "what3words": {
-          "words": "giving.phones.sprayed"
-        },
-        "wikidata": "Q649"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 56.0212238,
-          "lng": 37.9674277
-        },
-        "southwest": {
-          "lat": 55.1421745,
-          "lng": 36.8031012
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "RU",
-        "ISO_3166-1_alpha-3": "RUS",
-        "ISO_3166-2": [
-          "RU-MOW"
-        ],
-        "_category": "place",
-        "_type": "state",
-        "continent": "Europe",
-        "country": "Russia",
-        "country_code": "ru",
-        "region": "Central Federal District",
-        "state": "Moscow"
-      },
-      "confidence": 1,
-      "formatted": "Moscow, Russia",
-      "geometry": {
-        "lat": 55.625578,
-        "lng": 37.6063916
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "46° 43' 56.59500'' N",
-          "lng": "117° 0' 0.59400'' W"
-        },
-        "FIPS": {
-          "county": "16057",
-          "state": "16"
-        },
-        "MGRS": "11TMM9998775426",
-        "Maidenhead": "DN16lr95xs",
-        "Mercator": {
-          "x": -13024398.791,
-          "y": 5867374.158
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=121430#map=16/46.73239/-117.00016",
-          "note_url": "https://www.openstreetmap.org/note/new#map=16/46.73239/-117.00016&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=46.73239&mlon=-117.00016#map=16/46.73239/-117.00016"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "NORTHERN_AMERICA": "021",
-            "US": "840",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 1,
-        "currency": {
-          "alternate_symbols": [
-            "US$"
-          ],
-          "decimal_mark": ".",
-          "disambiguate_symbol": "US$",
-          "html_entity": "$",
-          "iso_code": "USD",
-          "iso_numeric": "840",
-          "name": "United States Dollar",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "$",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇺🇸",
-        "geohash": "c2kcce75fs3vbwcqxf2q",
-        "qibla": 22.75,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "mph"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731422880,
-            "astronomical": 1731416640,
-            "civil": 1731420960,
-            "nautical": 1731418740
-          },
-          "set": {
-            "apparent": 1731370560,
-            "astronomical": 1731376800,
-            "civil": 1731372480,
-            "nautical": 1731374700
-          }
-        },
-        "timezone": {
-          "name": "America/Los_Angeles",
-          "now_in_dst": 0,
-          "offset_sec": -28800,
-          "offset_string": "-0800",
-          "short_name": "PST"
-        },
-        "what3words": {
-          "words": "spaces.kinds.rear"
-        },
-        "wikidata": "Q499927"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 46.758608,
-          "lng": -116.9605363
-        },
-        "southwest": {
-          "lat": 46.6986975,
-          "lng": -117.039882
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "US",
-        "ISO_3166-1_alpha-3": "USA",
-        "ISO_3166-2": [
-          "US-ID"
-        ],
-        "_category": "place",
-        "_normalized_city": "Moscow",
-        "_type": "city",
-        "continent": "North America",
-        "country": "United States",
-        "country_code": "us",
-        "county": "Latah County",
-        "state": "Idaho",
-        "state_code": "ID",
-        "town": "Moscow"
-      },
-      "confidence": 7,
-      "formatted": "Moscow, Idaho, United States of America",
-      "geometry": {
-        "lat": 46.7323875,
-        "lng": -117.000165
-=======
-            "apparent": 1731470040,
-            "astronomical": 1731464580,
-            "civil": 1731468360,
-            "nautical": 1731466440
-          },
-          "set": {
-            "apparent": 1731506460,
-            "astronomical": 1731511920,
-            "civil": 1731508140,
-            "nautical": 1731510060
-          }
-        },
-        "timezone": {
-          "name": "Europe/Istanbul",
-          "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "+03"
-        },
-        "what3words": {
-          "words": "lifespan.delicate.greeted"
-        },
-        "wikidata": "Q10832147"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 38.5366987,
-          "lng": 41.7173122
-        },
-        "southwest": {
-          "lat": 38.4966987,
-          "lng": 41.6773122
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "TR",
-        "ISO_3166-1_alpha-3": "TUR",
-        "ISO_3166-2": [
-          "TR-13"
-        ],
-        "_category": "place",
-        "_normalized_city": "Mutki",
-        "_type": "village",
-        "continent": "Asia",
-        "country": "Turkey",
-        "country_code": "tr",
-        "province": "Bitlis",
-        "region": "Eastern Anatolia Region",
-        "state": "Bitlis",
-        "town": "Mutki",
-        "village": "Uran"
-      },
-      "confidence": 7,
-      "formatted": "Mutki, Bitlis, Turkey",
-      "geometry": {
-        "lat": 38.5166987,
-        "lng": 41.6973122
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-<<<<<<< HEAD
-          "lat": "37° 19' 26.63040'' N",
-          "lng": "101° 12' 19.66680'' W"
-        },
-        "FIPS": {
-          "county": "20189",
-          "state": "20"
-        },
-        "MGRS": "14SLG0458933103",
-        "Maidenhead": "DM97jh57is",
-        "Mercator": {
-          "x": -11266140.607,
-          "y": 4458464.08
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=129775#map=16/37.32406/-101.20546",
-          "note_url": "https://www.openstreetmap.org/note/new#map=16/37.32406/-101.20546&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=37.32406&mlon=-101.20546#map=16/37.32406/-101.20546"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "NORTHERN_AMERICA": "021",
-            "US": "840",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 1,
-        "currency": {
-          "alternate_symbols": [
-            "US$"
-          ],
-          "decimal_mark": ".",
-          "disambiguate_symbol": "US$",
-          "html_entity": "$",
-          "iso_code": "USD",
-          "iso_numeric": "840",
-          "name": "United States Dollar",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "$",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇺🇸",
-        "geohash": "9y8h348kmvc4nnyffb1g",
-        "qibla": 38.76,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "mph"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731417780,
-            "astronomical": 1731412380,
-            "civil": 1731416100,
-            "nautical": 1731414240
-          },
-          "set": {
-            "apparent": 1731454500,
-            "astronomical": 1731373500,
-            "civil": 1731369780,
-            "nautical": 1731371640
-          }
-        },
-        "timezone": {
-          "name": "America/Chicago",
-          "now_in_dst": 0,
-          "offset_sec": -21600,
-          "offset_string": "-0600",
-          "short_name": "CST"
-        },
-        "what3words": {
-          "words": "disparities.fame.aliens"
-        },
-        "wikidata": "Q1023006"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 37.329613,
-          "lng": -101.203097
-        },
-        "southwest": {
-          "lat": 37.3221469,
-          "lng": -101.2126096
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "US",
-        "ISO_3166-1_alpha-3": "USA",
-        "ISO_3166-2": [
-          "US-KS"
-        ],
-        "_category": "place",
-        "_normalized_city": "Moscow",
-        "_type": "city",
-        "city": "Moscow",
-        "continent": "North America",
-        "country": "United States",
-        "country_code": "us",
-        "county": "Stevens County",
-        "postcode": "67952",
-        "state": "Kansas",
-        "state_code": "KS"
-      },
-      "confidence": 9,
-      "formatted": "Moscow, Kansas, United States of America",
-      "geometry": {
-        "lat": 37.324064,
-        "lng": -101.205463
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "45° 4' 15.94560'' N",
-          "lng": "69° 53' 29.70960'' W"
-        },
-        "FIPS": {
-          "county": "23025",
-          "state": "23"
-        },
-        "MGRS": "19TDK2981691234",
-        "Maidenhead": "FN55bb37ab",
-        "Mercator": {
-          "x": -7780295.764,
-          "y": 5602457.915
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=12196304#map=16/45.07110/-69.89159",
-          "note_url": "https://www.openstreetmap.org/note/new#map=16/45.07110/-69.89159&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=45.07110&mlon=-69.89159#map=16/45.07110/-69.89159"
-        },
-        "UN_M49": {
-          "regions": {
-            "AMERICAS": "019",
-            "NORTHERN_AMERICA": "021",
-            "US": "840",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 1,
-        "currency": {
-          "alternate_symbols": [
-            "US$"
-          ],
-          "decimal_mark": ".",
-          "disambiguate_symbol": "US$",
-          "html_entity": "$",
-          "iso_code": "USD",
-          "iso_numeric": "840",
-          "name": "United States Dollar",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "$",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇺🇸",
-        "geohash": "f2n23sfw0j20pjpgkspu",
-        "qibla": 61.27,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "mph"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731411300,
-            "astronomical": 1731405240,
-            "civil": 1731409440,
-            "nautical": 1731407280
-          },
-          "set": {
-            "apparent": 1731445920,
-            "astronomical": 1731451980,
-            "civil": 1731447840,
-            "nautical": 1731449940
-          }
-        },
-        "timezone": {
-          "name": "America/New_York",
-          "now_in_dst": 0,
-          "offset_sec": -18000,
-          "offset_string": "-0500",
-          "short_name": "EST"
-        },
-        "what3words": {
-          "words": "sank.principled.senses"
-        },
-        "wikidata": "Q3450448"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 45.1773584,
-          "lng": -69.787473
-        },
-        "southwest": {
-          "lat": 45.0647356,
-          "lng": -69.9665917
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "US",
-        "ISO_3166-1_alpha-3": "USA",
-        "ISO_3166-2": [
-          "US-ME"
-        ],
-        "_category": "place",
-        "_normalized_city": "Moscow",
-        "_type": "city",
-        "continent": "North America",
-        "country": "United States",
-        "country_code": "us",
-        "county": "Somerset County",
-        "postcode": "04920",
-        "state": "Maine",
-        "state_code": "ME",
-        "town": "Moscow"
-      },
-      "confidence": 6,
-      "formatted": "Moscow, ME 04920, United States of America",
-      "geometry": {
-        "lat": 45.071096,
-        "lng": -69.891586
-=======
-          "lat": "18° 52' 53.02056'' N",
-          "lng": "72° 58' 14.37060'' E"
-        },
-        "MGRS": "43QBA8622588929",
-        "Maidenhead": "MK68lv61lm",
-        "Mercator": {
-          "x": 8123056.545,
-          "y": 2127156.389
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?way=377548455#map=17/18.88139/72.97066",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.88139/72.97066&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=18.88139&mlon=72.97066#map=17/18.88139/72.97066"
+          "edit_url": "https://www.openstreetmap.org/edit?relation=10351626#map=17/18.52137/73.85451",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.52137/73.85451&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=18.52137&mlon=73.85451#map=17/18.52137/73.85451"
         },
         "UN_M49": {
           "regions": {
@@ -842,24 +63,24 @@
           "thousands_separator": ","
         },
         "flag": "🇮🇳",
-        "geohash": "te7gkmr85e4d7cjejb3y",
-        "qibla": 280.39,
+        "geohash": "tek92eenydrfm2mek7dy",
+        "qibla": 281,
         "roadinfo": {
           "drive_on": "left",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731460500,
-            "astronomical": 1731456000,
-            "civil": 1731459120,
-            "nautical": 1731457560
+            "apparent": 1733707560,
+            "astronomical": 1733702940,
+            "civil": 1733706180,
+            "nautical": 1733704560
           },
           "set": {
-            "apparent": 1731501000,
-            "astronomical": 1731505500,
-            "civil": 1731502320,
-            "nautical": 1731503940
+            "apparent": 1733747220,
+            "astronomical": 1733751900,
+            "civil": 1733748660,
+            "nautical": 1733750280
           }
         },
         "timezone": {
@@ -870,18 +91,18 @@
           "short_name": "IST"
         },
         "what3words": {
-          "words": "district.tropic.gobblers"
+          "words": "engages.octagon.noon"
         },
-        "wikidata": "Q15991528"
+        "wikidata": "Q1538"
       },
       "bounds": {
         "northeast": {
-          "lat": 18.8847093,
-          "lng": 72.9732284
+          "lat": 18.6208699,
+          "lng": 74.020214
         },
         "southwest": {
-          "lat": 18.8776762,
-          "lng": 72.9681774
+          "lat": 18.429497,
+          "lng": 73.7498473
         }
       },
       "components": {
@@ -891,977 +112,136 @@
           "IN-MH"
         ],
         "_category": "place",
-        "_normalized_city": "Uran",
-        "_type": "neighbourhood",
+        "_normalized_city": "Pune",
+        "_type": "city",
+        "city": "Pune",
         "continent": "Asia",
         "country": "India",
         "country_code": "in",
-        "county": "Uran Taluka",
-        "industrial": "Uran",
         "state": "Maharashtra",
         "state_code": "MH",
-        "state_district": "Raigad"
+        "state_district": "Pune District"
       },
-      "confidence": 9,
-      "formatted": "Uran, Uran Taluka, India",
+      "confidence": 4,
+      "formatted": "Pune, Pune District, India",
       "geometry": {
-        "lat": 18.8813946,
-        "lng": 72.9706585
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
+        "lat": 18.5213738,
+        "lng": 73.8545071
       }
     },
     {
       "annotations": {
         "DMS": {
-<<<<<<< HEAD
-          "lat": "35° 3' 43.19424'' N",
-          "lng": "89° 24' 14.26032'' W"
+          "lat": "18° 38' 41.50572'' N",
+          "lng": "73° 55' 20.69652'' E"
         },
-        "FIPS": {
-          "county": "47047",
-          "state": "47"
-        },
-        "MGRS": "16SBD8077882561",
-        "Maidenhead": "EM55hb14mv",
+        "MGRS": "43QCA8634061874",
+        "Maidenhead": "MK68xp04qs",
         "Mercator": {
-          "x": -9952403.436,
-          "y": 4147763.376
+          "x": 8229005.669,
+          "y": 2099514.918
         },
         "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=197198#map=16/35.06200/-89.40396",
-          "note_url": "https://www.openstreetmap.org/note/new#map=16/35.06200/-89.40396&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=35.06200&mlon=-89.40396#map=16/35.06200/-89.40396"
+          "edit_url": "https://www.openstreetmap.org/edit?relation=1986140#map=17/18.64486/73.92242",
+          "note_url": "https://www.openstreetmap.org/note/new#map=17/18.64486/73.92242&layers=N",
+          "url": "https://www.openstreetmap.org/?mlat=18.64486&mlon=73.92242#map=17/18.64486/73.92242"
         },
         "UN_M49": {
           "regions": {
-            "AMERICAS": "019",
-            "NORTHERN_AMERICA": "021",
-            "US": "840",
-=======
-          "lat": "2° 52' 28.92216'' N",
-          "lng": "38° 41' 18.54888'' E"
-        },
-        "MGRS": "37NDD6537917748",
-        "Maidenhead": "KJ92iu29ow",
-        "Mercator": {
-          "x": 4306782.535,
-          "y": 318003.165
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?relation=15994038#map=17/2.87470/38.68849",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/2.87470/38.68849&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=2.87470&mlon=38.68849#map=17/2.87470/38.68849"
-        },
-        "UN_M49": {
-          "regions": {
-            "AFRICA": "002",
-            "EASTERN_AFRICA": "014",
-            "KE": "404",
-            "SUB-SAHARAN_AFRICA": "202",
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
+            "ASIA": "142",
+            "IN": "356",
+            "SOUTHERN_ASIA": "034",
             "WORLD": "001"
           },
           "statistical_groupings": [
-            "MEDC"
+            "LEDC"
           ]
         },
-<<<<<<< HEAD
-        "callingcode": 1,
+        "callingcode": 91,
         "currency": {
           "alternate_symbols": [
-            "US$"
+            "Rs",
+            "৳",
+            "૱",
+            "௹",
+            "रु",
+            "₨"
           ],
           "decimal_mark": ".",
-          "disambiguate_symbol": "US$",
-          "html_entity": "$",
-          "iso_code": "USD",
-          "iso_numeric": "840",
-          "name": "United States Dollar",
-          "smallest_denomination": 1,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "$",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇺🇸",
-        "geohash": "dn0rmwf4bwnxr9z9mqye",
-        "qibla": 48.54,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "mph"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731414660,
-            "astronomical": 1731409440,
-            "civil": 1731413040,
-            "nautical": 1731411240
-          },
-          "set": {
-            "apparent": 1731451920,
-            "astronomical": 1731370740,
-            "civil": 1731453540,
-            "nautical": 1731455400
-          }
-        },
-        "timezone": {
-          "name": "America/Chicago",
-          "now_in_dst": 0,
-          "offset_sec": -21600,
-          "offset_string": "-0600",
-          "short_name": "CST"
-        },
-        "what3words": {
-          "words": "conductor.shillings.observations"
-        },
-        "wikidata": "Q2380475"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 35.066173,
-          "lng": -89.371835
-        },
-        "southwest": {
-          "lat": 35.05075,
-          "lng": -89.411041
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "US",
-        "ISO_3166-1_alpha-3": "USA",
-        "ISO_3166-2": [
-          "US-TN"
-        ],
-        "_category": "place",
-        "_normalized_city": "Moscow",
-        "_type": "village",
-        "continent": "North America",
-        "country": "United States",
-        "country_code": "us",
-        "county": "Fayette County",
-        "postcode": "38057",
-        "region": "West Tennessee",
-        "state": "Tennessee",
-        "state_code": "TN",
-        "village": "Moscow"
-      },
-      "confidence": 7,
-      "formatted": "Moscow, Fayette County, TN 38057, United States of America",
-      "geometry": {
-        "lat": 35.0619984,
-        "lng": -89.4039612
-=======
-        "callingcode": 254,
-        "currency": {
-          "alternate_symbols": [
-            "Sh"
-          ],
-          "decimal_mark": ".",
-          "html_entity": "",
-          "iso_code": "KES",
-          "iso_numeric": "404",
-          "name": "Kenyan Shilling",
+          "html_entity": "&#x20b9;",
+          "iso_code": "INR",
+          "iso_numeric": "356",
+          "name": "Indian Rupee",
           "smallest_denomination": 50,
-          "subunit": "Cent",
+          "subunit": "Paisa",
           "subunit_to_unit": 100,
-          "symbol": "KSh",
+          "symbol": "₹",
           "symbol_first": 1,
           "thousands_separator": ","
         },
-        "flag": "🇰🇪",
-        "geohash": "sbe827k4751bsr3nvzg6",
-        "qibla": 3.33,
+        "flag": "🇮🇳",
+        "geohash": "tekd44hwjnk1ywhrm4zt",
+        "qibla": 280.81,
         "roadinfo": {
           "drive_on": "left",
           "speed_in": "km/h"
         },
         "sun": {
           "rise": {
-            "apparent": 1731467460,
-            "astronomical": 1731463140,
-            "civil": 1731466140,
-            "nautical": 1731464640
+            "apparent": 1733707560,
+            "astronomical": 1733702940,
+            "civil": 1733706180,
+            "nautical": 1733704560
           },
           "set": {
-            "apparent": 1731510480,
-            "astronomical": 1731514800,
-            "civil": 1731511800,
-            "nautical": 1731513300
+            "apparent": 1733747220,
+            "astronomical": 1733751900,
+            "civil": 1733748660,
+            "nautical": 1733750280
           }
         },
         "timezone": {
-          "name": "Africa/Nairobi",
+          "name": "Asia/Kolkata",
           "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "EAT"
+          "offset_sec": 19800,
+          "offset_string": "+0530",
+          "short_name": "IST"
         },
         "what3words": {
-          "words": "hoping.adjudicated.monitors"
-        }
+          "words": "dugouts.unsecured.camps"
+        },
+        "wikidata": "Q1797336"
       },
       "bounds": {
         "northeast": {
-          "lat": 3.6542229,
-          "lng": 38.9619193
+          "lat": 19.3947459,
+          "lng": 75.1636505
         },
         "southwest": {
-          "lat": 2.0951549,
-          "lng": 38.1298881
+          "lat": 17.8950735,
+          "lng": 73.3227109
         }
       },
       "components": {
-        "ISO_3166-1_alpha-2": "KE",
-        "ISO_3166-1_alpha-3": "KEN",
+        "ISO_3166-1_alpha-2": "IN",
+        "ISO_3166-1_alpha-3": "IND",
         "ISO_3166-2": [
-          "KE-25"
+          "IN-MH"
         ],
         "_category": "place",
-        "_normalized_city": "Uran",
-        "_type": "city",
-        "city": "Uran",
-        "continent": "Africa",
-        "country": "Kenya",
-        "country_code": "ke",
-        "county": "Moyale",
-        "state": "Marsabit County"
+        "_type": "state_district",
+        "continent": "Asia",
+        "country": "India",
+        "country_code": "in",
+        "state": "Maharashtra",
+        "state_code": "MH",
+        "state_district": "Pune District"
       },
       "confidence": 1,
-      "formatted": "Uran, Moyale, Kenya",
+      "formatted": "Pune District, India",
       "geometry": {
-        "lat": 2.8747006,
-        "lng": 38.6884858
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "12° 2' 38.04000'' N",
-          "lng": "8° 48' 9.82800'' E"
-        },
-        "MGRS": "32PMU7852831415",
-        "Maidenhead": "JK42jb60hm",
-        "Mercator": {
-          "x": 979915.421,
-          "y": 1341794.71
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=7503462556#map=17/12.04390/8.80273",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/12.04390/8.80273&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=12.04390&mlon=8.80273#map=17/12.04390/8.80273"
-        },
-        "UN_M49": {
-          "regions": {
-            "AFRICA": "002",
-            "NG": "566",
-            "SUB-SAHARAN_AFRICA": "202",
-            "WESTERN_AFRICA": "011",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 234,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ".",
-          "html_entity": "&#x20A6;",
-          "iso_code": "NGN",
-          "iso_numeric": "566",
-          "name": "Nigerian Naira",
-          "smallest_denomination": 50,
-          "subunit": "Kobo",
-          "subunit_to_unit": 100,
-          "symbol": "₦",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇳🇬",
-        "geohash": "s4nk829by3xjzqbn6cnk",
-        "qibla": 68.32,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731475320,
-            "astronomical": 1731470940,
-            "civil": 1731474000,
-            "nautical": 1731472500
-          },
-          "set": {
-            "apparent": 1731516960,
-            "astronomical": 1731521340,
-            "civil": 1731518280,
-            "nautical": 1731519780
-          }
-        },
-        "timezone": {
-          "name": "Africa/Lagos",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "WAT"
-        },
-        "what3words": {
-          "words": "transposes.sociable.juiciest"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 12.0639,
-          "lng": 8.82273
-        },
-        "southwest": {
-          "lat": 12.0239,
-          "lng": 8.78273
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "NG",
-        "ISO_3166-1_alpha-3": "NGA",
-        "ISO_3166-2": [
-          "NG-KN"
-        ],
-        "_category": "place",
-        "_normalized_city": "Uran",
-        "_type": "village",
-        "continent": "Africa",
-        "country": "Nigeria",
-        "country_code": "ng",
-        "county": "Gezawa",
-        "state": "Kano State",
-        "village": "Uran"
-      },
-      "confidence": 7,
-      "formatted": "Uran, Gezawa, Nigeria",
-      "geometry": {
-        "lat": 12.0439,
-        "lng": 8.80273
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "64° 24' 51.86340'' N",
-          "lng": "10° 38' 21.27228'' E"
-        },
-        "MGRS": "32WNS7898244213",
-        "Maidenhead": "JP54hj69rk",
-        "Mercator": {
-          "x": 1184355.035,
-          "y": 9417206.195
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "NO"
-          },
-          "NUTS1": {
-            "code": "NO0"
-          },
-          "NUTS2": {
-            "code": "NO06"
-          },
-          "NUTS3": {
-            "code": "NO060"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=2641342404#map=17/64.41441/10.63924",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/64.41441/10.63924&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=64.41441&mlon=10.63924#map=17/64.41441/10.63924"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "NO": "578",
-            "NORTHERN_EUROPE": "154",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 47,
-        "currency": {
-          "alternate_symbols": [
-            ",-"
-          ],
-          "decimal_mark": ",",
-          "disambiguate_symbol": "NOK",
-          "format": "%n %u",
-          "html_entity": "kr",
-          "iso_code": "NOK",
-          "iso_numeric": "578",
-          "name": "Norwegian Krone",
-          "smallest_denomination": 100,
-          "subunit": "Øre",
-          "subunit_to_unit": 100,
-          "symbol": "kr",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇳🇴",
-        "geohash": "u5rw6n7307djcdhj368j",
-        "qibla": 141.72,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731483840,
-            "astronomical": 1731473160,
-            "civil": 1731480240,
-            "nautical": 1731476580
-          },
-          "set": {
-            "apparent": 1731507540,
-            "astronomical": 1731518160,
-            "civil": 1731511140,
-            "nautical": 1731514740
-          }
-        },
-        "timezone": {
-          "name": "Europe/Oslo",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "laminated.knees.audible"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 64.4344065,
-          "lng": 10.6592423
-        },
-        "southwest": {
-          "lat": 64.3944065,
-          "lng": 10.6192423
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "NO",
-        "ISO_3166-1_alpha-3": "NOR",
-        "ISO_3166-2": [
-          "NO-50"
-        ],
-        "_category": "place",
-        "_normalized_city": "Flatanger",
-        "_type": "hamlet",
-        "continent": "Europe",
-        "country": "Norway",
-        "country_code": "no",
-        "county": "Trøndelag",
-        "hamlet": "Uran",
-        "municipality": "Flatanger"
-      },
-      "confidence": 7,
-      "formatted": "Uran, Trøndelag, Norway",
-      "geometry": {
-        "lat": 64.4144065,
-        "lng": 10.6392423
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "49° 2' 46.56192'' N",
-          "lng": "14° 22' 27.37776'' E"
-        },
-        "MGRS": "33UVQ5427532787",
-        "Maidenhead": "JN79eb41vc",
-        "Mercator": {
-          "x": 1600136.596,
-          "y": 6250427.537
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "CZ"
-          },
-          "NUTS1": {
-            "code": "CZ0"
-          },
-          "NUTS2": {
-            "code": "CZ03"
-          },
-          "NUTS3": {
-            "code": "CZ031"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?way=51710440#map=17/49.04627/14.37427",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/49.04627/14.37427&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=49.04627&mlon=14.37427#map=17/49.04627/14.37427"
-        },
-        "UN_M49": {
-          "regions": {
-            "CZ": "203",
-            "EASTERN_EUROPE": "151",
-            "EUROPE": "150",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 420,
-        "currency": {
-          "alternate_symbols": [],
-          "decimal_mark": ",",
-          "format": "%n %u",
-          "html_entity": "",
-          "iso_code": "CZK",
-          "iso_numeric": "203",
-          "name": "Czech Koruna",
-          "smallest_denomination": 100,
-          "subunit": "Haléř",
-          "subunit_to_unit": 100,
-          "symbol": "Kč",
-          "symbol_first": 0,
-          "thousands_separator": " "
-        },
-        "flag": "🇨🇿",
-        "geohash": "u2dpp0e50ycu26nqe4t0",
-        "qibla": 134.67,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731478200,
-            "astronomical": 1731471600,
-            "civil": 1731476160,
-            "nautical": 1731473820
-          },
-          "set": {
-            "apparent": 1731511380,
-            "astronomical": 1731517980,
-            "civil": 1731513420,
-            "nautical": 1731515760
-          }
-        },
-        "timezone": {
-          "name": "Europe/Prague",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "firm.fundraisers.impolite"
-        },
-        "wikidata": "Q96152344"
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 49.0476446,
-          "lng": 14.3763784
-        },
-        "southwest": {
-          "lat": 49.0448517,
-          "lng": 14.367862
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "CZ",
-        "ISO_3166-1_alpha-3": "CZE",
-        "ISO_3166-2": [
-          "CZ-31",
-          "CZ-311"
-        ],
-        "_category": "natural/water",
-        "_normalized_city": "Zliv",
-        "_type": "water",
-        "continent": "Europe",
-        "country": "Czechia",
-        "country_code": "cz",
-        "county": "South Bohemian Region",
-        "municipality": "okres České Budějovice",
-        "political_union": "European Union",
-        "state": "Southwest",
-        "suburb": "Zliv u Českých Budějovic",
-        "town": "Zliv",
-        "water": "Uran"
-      },
-      "confidence": 9,
-      "formatted": "Uran, Zliv u Českých Budějovic, Zliv, South Bohemian Region, Czechia",
-      "geometry": {
-        "lat": 49.0462672,
-        "lng": 14.3742716
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "66° 59' 35.67120'' N",
-          "lng": "14° 14' 18.84840'' E"
-        },
-        "MGRS": "33WVQ6679130829",
-        "Maidenhead": "JP76cx88pj",
-        "Mercator": {
-          "x": 1585030.251,
-          "y": 10114757.629
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "NO"
-          },
-          "NUTS1": {
-            "code": "NO0"
-          },
-          "NUTS2": {
-            "code": "NO07"
-          },
-          "NUTS3": {
-            "code": "NO071"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=3414332087#map=17/66.99324/14.23857",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/66.99324/14.23857&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=66.99324&mlon=14.23857#map=17/66.99324/14.23857"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "NO": "578",
-            "NORTHERN_EUROPE": "154",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 47,
-        "currency": {
-          "alternate_symbols": [
-            ",-"
-          ],
-          "decimal_mark": ",",
-          "disambiguate_symbol": "NOK",
-          "format": "%n %u",
-          "html_entity": "kr",
-          "iso_code": "NOK",
-          "iso_numeric": "578",
-          "name": "Norwegian Krone",
-          "smallest_denomination": 100,
-          "subunit": "Øre",
-          "subunit_to_unit": 100,
-          "symbol": "kr",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇳🇴",
-        "geohash": "u7fjh58pytqwccp2wp2s",
-        "qibla": 147.46,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731484560,
-            "astronomical": 1731472440,
-            "civil": 1731480300,
-            "nautical": 1731476220
-          },
-          "set": {
-            "apparent": 1731505080,
-            "astronomical": 1731517200,
-            "civil": 1731509340,
-            "nautical": 1731513420
-          }
-        },
-        "timezone": {
-          "name": "Europe/Oslo",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "promoting.clasps.instance"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 66.993292,
-          "lng": 14.238619
-        },
-        "southwest": {
-          "lat": 66.993192,
-          "lng": 14.238519
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "NO",
-        "ISO_3166-1_alpha-3": "NOR",
-        "ISO_3166-2": [
-          "NO-18"
-        ],
-        "_category": "unknown",
-        "_normalized_city": "Gildeskål",
-        "_type": "scree",
-        "continent": "Europe",
-        "country": "Norway",
-        "country_code": "no",
-        "county": "Nordland",
-        "hamlet": "Breivika",
-        "municipality": "Gildeskål",
-        "scree": "Uran"
-      },
-      "confidence": 9,
-      "formatted": "Uran, Breivika, Nordland, Norway",
-      "geometry": {
-        "lat": 66.993242,
-        "lng": 14.238569
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "57° 58' 27.64992'' N",
-          "lng": "7° 36' 43.21008'' E"
-        },
-        "MGRS": "32VMK1790126697",
-        "Maidenhead": "JO37tx33ku",
-        "Mercator": {
-          "x": 847364.276,
-          "y": 7925672.836
-        },
-        "NUTS": {
-          "NUTS0": {
-            "code": "NO"
-          },
-          "NUTS1": {
-            "code": "NO0"
-          },
-          "NUTS2": {
-            "code": "NO09"
-          },
-          "NUTS3": {
-            "code": "NO092"
-          }
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=5597023389#map=17/57.97435/7.61200",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/57.97435/7.61200&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=57.97435&mlon=7.61200#map=17/57.97435/7.61200"
-        },
-        "UN_M49": {
-          "regions": {
-            "EUROPE": "150",
-            "NO": "578",
-            "NORTHERN_EUROPE": "154",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "MEDC"
-          ]
-        },
-        "callingcode": 47,
-        "currency": {
-          "alternate_symbols": [
-            ",-"
-          ],
-          "decimal_mark": ",",
-          "disambiguate_symbol": "NOK",
-          "format": "%n %u",
-          "html_entity": "kr",
-          "iso_code": "NOK",
-          "iso_numeric": "578",
-          "name": "Norwegian Krone",
-          "smallest_denomination": 100,
-          "subunit": "Øre",
-          "subunit_to_unit": 100,
-          "symbol": "kr",
-          "symbol_first": 0,
-          "thousands_separator": "."
-        },
-        "flag": "🇳🇴",
-        "geohash": "u4m3v1yvh98etwdqdmce",
-        "qibla": 133.69,
-        "roadinfo": {
-          "drive_on": "right",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731481980,
-            "astronomical": 1731473640,
-            "civil": 1731479280,
-            "nautical": 1731476400
-          },
-          "set": {
-            "apparent": 1731510840,
-            "astronomical": 1731519180,
-            "civil": 1731513540,
-            "nautical": 1731516420
-          }
-        },
-        "timezone": {
-          "name": "Europe/Oslo",
-          "now_in_dst": 0,
-          "offset_sec": 3600,
-          "offset_string": "+0100",
-          "short_name": "CET"
-        },
-        "what3words": {
-          "words": "habits.beams.spotted"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 57.9743972,
-          "lng": 7.6120528
-        },
-        "southwest": {
-          "lat": 57.9742972,
-          "lng": 7.6119528
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "NO",
-        "ISO_3166-1_alpha-3": "NOR",
-        "ISO_3166-2": [
-          "NO-42"
-        ],
-        "_category": "unknown",
-        "_normalized_city": "Lindesnes",
-        "_type": "scree",
-        "continent": "Europe",
-        "country": "Norway",
-        "country_code": "no",
-        "county": "Agder",
-        "municipality": "Lindesnes",
-        "scree": "Uran"
-      },
-      "confidence": 9,
-      "formatted": "Uran, Lindesnes, Agder, Norway",
-      "geometry": {
-        "lat": 57.9743472,
-        "lng": 7.6120028
-      }
-    },
-    {
-      "annotations": {
-        "DMS": {
-          "lat": "3° 36' 0.00000'' N",
-          "lng": "38° 32' 60.00000'' E"
-        },
-        "MGRS": "37NDD5002397925",
-        "Maidenhead": "KJ93go64aa",
-        "Mercator": {
-          "x": 4291366.37,
-          "y": 398333.078
-        },
-        "OSM": {
-          "edit_url": "https://www.openstreetmap.org/edit?node=1150957806#map=17/3.60000/38.55000",
-          "note_url": "https://www.openstreetmap.org/note/new#map=17/3.60000/38.55000&layers=N",
-          "url": "https://www.openstreetmap.org/?mlat=3.60000&mlon=38.55000#map=17/3.60000/38.55000"
-        },
-        "UN_M49": {
-          "regions": {
-            "AFRICA": "002",
-            "EASTERN_AFRICA": "014",
-            "KE": "404",
-            "SUB-SAHARAN_AFRICA": "202",
-            "WORLD": "001"
-          },
-          "statistical_groupings": [
-            "LEDC"
-          ]
-        },
-        "callingcode": 254,
-        "currency": {
-          "alternate_symbols": [
-            "Sh"
-          ],
-          "decimal_mark": ".",
-          "html_entity": "",
-          "iso_code": "KES",
-          "iso_numeric": "404",
-          "name": "Kenyan Shilling",
-          "smallest_denomination": 50,
-          "subunit": "Cent",
-          "subunit_to_unit": 100,
-          "symbol": "KSh",
-          "symbol_first": 1,
-          "thousands_separator": ","
-        },
-        "flag": "🇰🇪",
-        "geohash": "sbekmpr780ekmpr780ek",
-        "qibla": 3.88,
-        "roadinfo": {
-          "drive_on": "left",
-          "speed_in": "km/h"
-        },
-        "sun": {
-          "rise": {
-            "apparent": 1731467520,
-            "astronomical": 1731463200,
-            "civil": 1731466260,
-            "nautical": 1731464700
-          },
-          "set": {
-            "apparent": 1731510480,
-            "astronomical": 1731514800,
-            "civil": 1731511800,
-            "nautical": 1731513300
-          }
-        },
-        "timezone": {
-          "name": "Africa/Nairobi",
-          "now_in_dst": 0,
-          "offset_sec": 10800,
-          "offset_string": "+0300",
-          "short_name": "EAT"
-        },
-        "what3words": {
-          "words": "aftercare.urge.wicks"
-        }
-      },
-      "bounds": {
-        "northeast": {
-          "lat": 3.61,
-          "lng": 38.56
-        },
-        "southwest": {
-          "lat": 3.59,
-          "lng": 38.54
-        }
-      },
-      "components": {
-        "ISO_3166-1_alpha-2": "KE",
-        "ISO_3166-1_alpha-3": "KEN",
-        "ISO_3166-2": [
-          "KE-25"
-        ],
-        "_category": "place",
-        "_normalized_city": "Uran",
-        "_type": "hamlet",
-        "city": "Uran",
-        "continent": "Africa",
-        "country": "Kenya",
-        "country_code": "ke",
-        "county": "Moyale",
-        "locality": "Uran",
-        "state": "Marsabit County"
-      },
-      "confidence": 7,
-      "formatted": "Uran, Moyale, Kenya",
-      "geometry": {
-        "lat": 3.6,
-        "lng": 38.55
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
+        "lat": 18.6448627,
+        "lng": 73.9224157
       }
     }
   ],
@@ -1875,13 +255,8 @@
   },
   "thanks": "For using an OpenCage API",
   "timestamp": {
-<<<<<<< HEAD
-    "created_http": "Tue, 12 Nov 2024 05:09:27 GMT",
-    "created_unix": 1731388167
-=======
-    "created_http": "Wed, 13 Nov 2024 14:12:08 GMT",
-    "created_unix": 1731507128
->>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
+    "created_http": "Mon, 09 Dec 2024 12:26:37 GMT",
+    "created_unix": 1733747197
   },
-  "total_results": 6
+  "total_results": 2
 }

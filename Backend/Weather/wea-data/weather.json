@@ -606,4 +606,137 @@
   "name": "Uran",
 >>>>>>> 9ba26612578a9797ddb676bb30c806dbbe3aa438
   "cod": 200
+}{
+  "coord": {
+    "lon": 72.9386,
+    "lat": 18.8808
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 29.01,
+    "feels_like": 29.21,
+    "temp_min": 25.96,
+    "temp_max": 29.01,
+    "pressure": 1010,
+    "humidity": 46,
+    "sea_level": 1010,
+    "grnd_level": 1008
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.38,
+    "deg": 331,
+    "gust": 5.4
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1733747158,
+  "sys": {
+    "type": 1,
+    "id": 9052,
+    "country": "IN",
+    "sunrise": 1733707804,
+    "sunset": 1733747490
+  },
+  "timezone": 19800,
+  "id": 1253702,
+  "name": "Uran",
+  "cod": 200
+}{
+  "coord": {
+    "lon": 73.116,
+    "lat": 18.9944
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 28.99,
+    "feels_like": 27.76,
+    "temp_min": 28.99,
+    "temp_max": 28.99,
+    "pressure": 1010,
+    "humidity": 28,
+    "sea_level": 1010,
+    "grnd_level": 1007
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.47,
+    "deg": 355,
+    "gust": 1.54
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1733747152,
+  "sys": {
+    "type": 1,
+    "id": 9052,
+    "country": "IN",
+    "sunrise": 1733707774,
+    "sunset": 1733747435
+  },
+  "timezone": 19800,
+  "id": 1268308,
+  "name": "Kālundri",
+  "cod": 200
+}{
+  "coord": {
+    "lon": 73.8545,
+    "lat": 18.5214
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 25.74,
+    "feels_like": 25.31,
+    "temp_min": 25.74,
+    "temp_max": 25.74,
+    "pressure": 1011,
+    "humidity": 36,
+    "sea_level": 1011,
+    "grnd_level": 938
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.58,
+    "deg": 60,
+    "gust": 4.72
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1733747198,
+  "sys": {
+    "country": "IN",
+    "sunrise": 1733707544,
+    "sunset": 1733747311
+  },
+  "timezone": 19800,
+  "id": 1259229,
+  "name": "Pune",
+  "cod": 200
 }
